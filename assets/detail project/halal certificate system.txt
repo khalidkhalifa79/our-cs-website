@@ -1,0 +1,82 @@
+
+Safety Horizon System
+
+Halal Certification Operations Management System
+
+Client
+Safety Horizon ECI
+
+About the Client
+Safety Horizon ECI is a globally active certification and compliance organization providing halal and ISO certification services, training, and related compliance support for businesses across multiple markets. The company presents itself as an internationally accredited provider with headquarters in Ireland and operational presence across several countries.
+
+Project Overview
+Safety Horizon System was developed as a custom internal platform to manage the operational lifecycle of halal certificate issuance. The system was designed to centralize certificate processing, related company and product records, office-linked certificate details, eligibility handling, and controlled document output in one structured environment.
+
+The Challenge
+The certification process required a more organized and reliable internal workflow capable of handling multiple certificate types, associated product data, company relationships, user access rules, document-generation requirements, and issuance conditions without relying on fragmented or manual administrative handling. The process also required a clear mechanism to distinguish between applications that were ready for preliminary approval and those that still had missing requirements.
+
+The Solution
+A structured web-based internal system was built to support certificate operations from data entry to document output. It enabled controlled access for users, organized certificate records across multiple categories, supported draft and complete workflow stages, and generated formal certificate PDFs with office-specific information and branded presentation.
+
+In addition, the system introduced automated preliminary issuance logic based on defined operational conditions. When the certificate data met the required conditions, the system automatically prepared the preliminary certificate decision and submitted it to the administrator for approval. If the certificate was incomplete or did not meet the required conditions, the system did not send it for approval. Instead, it generated a notification to the client identifying the missing requirements that had to be completed before the certificate could proceed to preliminary approval and issuance.
+
+Key Features
+
+Multi-certificate handling for A, B, and annual certificate workflows
+Central management of companies, products, and related trade entities
+Draft and complete status handling
+Role-based user access and page permissions
+Automated preliminary certificate eligibility evaluation
+Automatic submission to the administrator for approval when conditions are met
+Automatic client notification when certificate requirements are incomplete
+PDF certificate generation
+QR-enabled document output
+Central listing and filtering of certificates
+Client certificate listing for completed records
+Admin and profile management features
+
+Business Value
+The system improved internal control, reduced manual effort, strengthened document consistency, and gave the organization a more reliable operational foundation for managing certification workflows and related records. By introducing automated preliminary eligibility handling and missing-requirement notifications, it also improved process accuracy, reduced unnecessary approval steps, and created a clearer path from application review to approved certificate issuance.
+
+
+////////////////////////////////////////////
+
+
+Safety Horizon System
+
+System zarządzania operacjami certyfikacji halal
+
+Klient
+Safety Horizon ECI
+
+O kliencie
+Safety Horizon ECI to aktywna globalnie organizacja działająca w obszarze certyfikacji i compliance, świadcząca usługi certyfikacji halal i ISO, szkolenia oraz powiązane wsparcie zgodności dla firm na wielu rynkach. Firma przedstawia się jako międzynarodowo akredytowany dostawca z siedzibą główną w Irlandii oraz obecnością operacyjną w kilku krajach.
+
+Opis projektu
+Safety Horizon System został opracowany jako dedykowana wewnętrzna platforma do zarządzania operacyjnym cyklem wydawania certyfikatów halal. System zaprojektowano w celu scentralizowania obsługi certyfikatów, powiązanych rejestrów firm i produktów, danych certyfikatów przypisanych do biur, obsługi kwalifikacji oraz kontrolowanego generowania dokumentów w jednym uporządkowanym środowisku.
+
+Wyzwanie
+Proces certyfikacji wymagał bardziej uporządkowanego i niezawodnego workflow wewnętrznego, zdolnego do obsługi wielu typów certyfikatów, powiązanych danych produktowych, relacji między firmami, zasad dostępu użytkowników, wymagań dotyczących generowania dokumentów oraz warunków wydania certyfikatu, bez polegania na rozproszonych lub ręcznych działaniach administracyjnych. Proces wymagał także czytelnego mechanizmu rozróżniania między wnioskami gotowymi do wstępnej akceptacji a tymi, które nadal zawierały braki.
+
+Rozwiązanie
+Zbudowano uporządkowany, webowy system wewnętrzny wspierający operacje certyfikacyjne od etapu wprowadzania danych aż po wygenerowanie dokumentu końcowego. System umożliwił kontrolowany dostęp użytkowników, uporządkował rejestry certyfikatów w wielu kategoriach, wspierał etapy robocze i kompletne oraz generował formalne certyfikaty PDF z informacjami właściwymi dla danego biura i ze spójną identyfikacją wizualną.
+
+Dodatkowo system wprowadził zautomatyzowaną logikę wstępnego wydania certyfikatu opartą na zdefiniowanych warunkach operacyjnych. Gdy dane certyfikatu spełniały wymagane warunki, system automatycznie przygotowywał wstępną decyzję dotyczącą wydania certyfikatu i przekazywał ją administratorowi do zatwierdzenia. Jeśli certyfikat był niekompletny lub nie spełniał wymaganych warunków, system nie przekazywał go do akceptacji. Zamiast tego generował powiadomienie dla klienta wskazujące brakujące wymagania, które musiały zostać uzupełnione, zanim certyfikat mógł przejść do etapu wstępnej akceptacji i wydania.
+
+Kluczowe funkcje
+
+Obsługa wielu typów certyfikatów w workflow A, B oraz certyfikatów rocznych
+Centralne zarządzanie firmami, produktami oraz powiązanymi podmiotami handlowymi
+Obsługa statusów roboczych i kompletnych
+Dostęp użytkowników i uprawnienia do stron oparte na rolach
+Automatyczna ocena kwalifikacji do wstępnego wydania certyfikatu
+Automatyczne przekazanie do administratora w celu zatwierdzenia po spełnieniu warunków
+Automatyczne powiadomienie klienta w przypadku braków w wymaganiach certyfikacyjnych
+Generowanie certyfikatów PDF
+Dokumenty z obsługą kodów QR
+Centralna lista certyfikatów z filtrowaniem
+Lista certyfikatów klienta dla ukończonych rekordów
+Funkcje administracyjne oraz zarządzanie profilem
+
+Wartość biznesowa
+System poprawił kontrolę wewnętrzną, ograniczył pracę ręczną, wzmocnił spójność dokumentów oraz zapewnił organizacji bardziej niezawodną podstawę operacyjną do zarządzania workflow certyfikacyjnym i powiązanymi rejestrami. Dzięki wprowadzeniu automatycznej obsługi kwalifikacji do wstępnego wydania certyfikatu oraz powiadomień o brakujących wymaganiach system zwiększył również dokładność procesu, ograniczył liczbę niepotrzebnych etapów akceptacji i stworzył bardziej przejrzystą ścieżkę od oceny wniosku do zatwierdzonego wydania certyfikatu.

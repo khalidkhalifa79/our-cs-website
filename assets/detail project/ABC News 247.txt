@@ -1,0 +1,101 @@
+ABC News 24/7
+
+News Platform & Publishing Management System
+
+Client
+ABC News 24/7
+
+Location
+Warsaw, Poland
+
+About the Client
+ABC News 24/7 is a digital news platform created to publish public news content across multiple sections while supporting internal editorial control, structured content organization, and continuous publishing operations.
+
+Project Overview
+ABC News 24/7 was developed as a custom news platform that combines a public-facing news website with a structured internal publishing management system. The platform was built to improve editorial efficiency through dedicated admin pages, permission-based access, media handling, section-based publishing, and organized workflows for articles, authors, categories, and advertising content.
+
+The Challenge
+The platform required much more than a basic article-posting interface. It needed a structured publishing environment capable of handling multiple news sections, user permissions, media uploads, embedded social content, advertising materials, author and category management, and controlled editorial publishing through a role-based system.
+
+A particularly important challenge was reducing manual classification effort during publishing. Editors needed a practical way to place content in the correct section without relying only on manual selection, especially in a fast-moving news environment with multiple categories and continuous publishing activity.
+
+The Solution
+A custom ASP.NET-based publishing platform was developed with a public-facing news site and an internal ACP environment. The system enabled editors and authorized users to manage articles, upload images and videos, assign authors, control categories, manage advertising-related content, and publish material through a structured editorial workflow.
+
+One of the system’s distinguishing features was its intelligent classification logic. Instead of relying only on manual section selection, the platform can analyze the article title and content, evaluate the nature of the material, and determine the most appropriate publishing section automatically. This allowed the system to support faster and more consistent section assignment while still operating within a controlled editorial environment.
+
+The result was not just a news website, but a structured publishing platform with operational depth, combining public content delivery with internal editorial administration, media handling, permission-based control, and intelligent publishing support.
+
+Key Features
+
+Role-based access control with user authentication, active-status checking, and page-level permissions through a user permission model
+Dedicated admin pages for multiple sections such as economics, education, health, politics, sports, travel, culture, local affairs, and others
+Article creation, editing, updating, and deletion through structured article records
+Media management for image and video uploads, including storage handling and cleanup on deletion
+Author management including author creation, editing, deletion, biography handling, and author image management
+Category-based publishing with section-aware content placement
+Advertising content management through dedicated ad-related admin pages and ad article handling
+Social media content support through safe embedding of selected Twitter, Facebook, and Instagram content inside published materials
+Intelligent content classification based on article title and content to identify the most appropriate publishing section automatically
+Manual or automatic section assignment depending on editorial needs
+Editorial metadata support including publish date, status, tags, slug, views, and breaking-news marking
+
+What Made the Project Special
+What makes this project especially strong is that it is not just a news website. It is a structured publishing system with real operational depth. It combines public news delivery with internal editorial control, section-based administration, media and advertising management, social media content integration, and intelligent section classification in one connected environment.
+
+Business Value
+The platform improved publishing organization, gave editors stronger control over content workflows, reduced friction across multiple sections, supported richer media-driven publishing, and created a more scalable foundation for day-to-day editorial operations. The intelligent classification feature also helped reduce manual categorization effort and improved publishing consistency across the platform.
+
+
+
+//////////////////////////////////////////
+
+
+Polish Version
+ABC News 24/7
+
+Platforma newsowa i system zarządzania publikacją
+
+Klient
+ABC News 24/7
+
+Lokalizacja
+Warszawa, Polska
+
+O kliencie
+ABC News 24/7 to cyfrowa platforma newsowa stworzona do publikowania treści informacyjnych w wielu sekcjach, przy jednoczesnym wsparciu wewnętrznej kontroli redakcyjnej, uporządkowanej organizacji treści oraz ciągłych operacji publikacyjnych.
+
+Opis projektu
+ABC News 24/7 zostało opracowane jako dedykowana platforma newsowa łącząca publiczną stronę informacyjną z uporządkowanym wewnętrznym systemem zarządzania publikacją. Platforma została zbudowana w celu zwiększenia efektywności redakcyjnej poprzez dedykowane strony administracyjne, dostęp oparty na uprawnieniach, obsługę mediów, publikację opartą na sekcjach oraz zorganizowane workflow dla artykułów, autorów, kategorii i treści reklamowych.
+
+Wyzwanie
+Platforma wymagała znacznie więcej niż podstawowego interfejsu do publikowania artykułów. Potrzebne było uporządkowane środowisko publikacyjne zdolne do obsługi wielu sekcji newsowych, uprawnień użytkowników, przesyłania mediów, osadzonych treści społecznościowych, materiałów reklamowych, zarządzania autorami i kategoriami oraz kontrolowanej publikacji redakcyjnej w systemie opartym na rolach.
+
+Szczególnie istotnym wyzwaniem było ograniczenie ręcznej pracy związanej z klasyfikacją treści podczas publikacji. Redaktorzy potrzebowali praktycznego sposobu przypisywania materiałów do właściwej sekcji bez polegania wyłącznie na ręcznym wyborze, zwłaszcza w dynamicznym środowisku newsowym z wieloma kategoriami i ciągłą aktywnością publikacyjną.
+
+Rozwiązanie
+Zaprojektowano dedykowaną platformę publikacyjną opartą na ASP.NET, obejmującą publiczną stronę newsową oraz wewnętrzne środowisko ACP. System umożliwił redaktorom i uprawnionym użytkownikom zarządzanie artykułami, przesyłanie obrazów i materiałów wideo, przypisywanie autorów, kontrolowanie kategorii, zarządzanie treściami związanymi z reklamą oraz publikowanie materiałów w ramach uporządkowanego workflow redakcyjnego.
+
+Jedną z najważniejszych cech systemu była inteligentna logika klasyfikacji treści. Zamiast opierać się wyłącznie na ręcznym wyborze sekcji, platforma potrafi analizować tytuł i treść artykułu, oceniać charakter materiału oraz automatycznie określać najbardziej odpowiednią sekcję publikacji. Dzięki temu system wspierał szybsze i bardziej spójne przypisywanie treści do sekcji, zachowując jednocześnie kontrolowane środowisko redakcyjne.
+
+W efekcie powstała nie tylko strona newsowa, ale uporządkowana platforma publikacyjna o realnej głębi operacyjnej, łącząca publiczną dystrybucję treści z wewnętrzną administracją redakcyjną, obsługą mediów, kontrolą opartą na uprawnieniach oraz inteligentnym wsparciem procesu publikacji.
+
+Kluczowe funkcje
+
+Kontrola dostępu oparta na rolach z uwierzytelnianiem użytkowników, sprawdzaniem aktywnego statusu oraz uprawnieniami na poziomie stron w ramach modelu uprawnień użytkownika
+Dedykowane strony administracyjne dla wielu sekcji, takich jak ekonomia, edukacja, zdrowie, polityka, sport, podróże, kultura, sprawy lokalne i inne
+Tworzenie, edycja, aktualizacja i usuwanie artykułów w oparciu o uporządkowane rekordy artykułów
+Zarządzanie mediami dla obrazów i materiałów wideo, w tym obsługa przechowywania i usuwanie zasobów przy kasowaniu treści
+Zarządzanie autorami obejmujące tworzenie, edycję, usuwanie, obsługę biogramów i zdjęć autorów
+Publikacja oparta na kategoriach z przypisywaniem treści do odpowiednich sekcji
+Zarządzanie treściami reklamowymi poprzez dedykowane strony administracyjne związane z reklamą oraz obsługę artykułów reklamowych
+Obsługa treści z mediów społecznościowych poprzez bezpieczne osadzanie wybranych materiałów z Twittera, Facebooka i Instagrama w publikowanych treściach
+Inteligentna klasyfikacja treści na podstawie tytułu i zawartości artykułu w celu automatycznego określenia najbardziej odpowiedniej sekcji publikacji
+Ręczne lub automatyczne przypisywanie sekcji w zależności od potrzeb redakcyjnych
+Obsługa metadanych redakcyjnych, w tym daty publikacji, statusu, tagów, slugów, liczby wyświetleń oraz oznaczenia jako breaking news
+
+Co wyróżniało ten projekt
+To, co szczególnie wyróżnia ten projekt, to fakt, że nie jest to jedynie strona newsowa. To uporządkowany system publikacyjny o realnej głębi operacyjnej. Łączy publiczne dostarczanie treści z wewnętrzną kontrolą redakcyjną, administracją opartą na sekcjach, zarządzaniem mediami i reklamą, integracją treści społecznościowych oraz inteligentną klasyfikacją sekcji w jednym spójnym środowisku.
+
+Wartość biznesowa
+Platforma poprawiła organizację publikacji, zapewniła redaktorom silniejszą kontrolę nad workflow treści, ograniczyła trudności związane z obsługą materiałów w wielu sekcjach, wsparła bogatszą publikację opartą na mediach i stworzyła bardziej skalowalną podstawę dla codziennych operacji redakcyjnych. Funkcja inteligentnej klasyfikacji pomogła również ograniczyć ręczną pracę związaną z kategoryzacją i poprawiła spójność publikacji na całej platformie.

@@ -1,0 +1,19 @@
+﻿# Certificates / private keys
+*.pfx
+*.p12
+*.pem
+*.key
+*.cer
+*.crt
+
+# Visual Studio / debug
+*.pdb
+.vs/
+obj/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Local configuration with secrets
+Web.config

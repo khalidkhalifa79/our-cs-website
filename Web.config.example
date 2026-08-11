@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <appSettings>
+    <add key="EstimateInbox" value="info@our-cs.com" />
+    <add key="ConsultationInbox" value="info@our-cs.com" />
+    <add key="EstimateAllowedExtensions" value=".pdf,.doc,.docx,.xls,.xlsx,.ppt,.pptx,.zip,.jpg,.jpeg,.png" />
+    <add key="EstimateMaxTotalAttachmentBytes" value="10485760" />
+  </appSettings>
+  <system.net>
+    <mailSettings>
+      <smtp from="info@our-cs.com">
+        <network host="smtp.office365.com" port="587" userName="info@our-cs.com" password="__SMTP_PASSWORD__" enableSsl="true" />
+      </smtp>
+    </mailSettings>
+  </system.net>
+  <system.web>
+    <compilation strict="false" explicit="true" targetFramework="4.7.2" />
+    <httpRuntime targetFramework="4.7.2" maxRequestLength="12288" executionTimeout="120" requestValidationMode="4.0" />
+  </system.web>
+  <system.codedom>
+    <compilers>
+      <compiler language="c#;cs;csharp" extension=".cs" type="Microsoft.CodeDom.Providers.DotNetCompilerPlatform.CSharpCodeProvider, Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=2.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" warningLevel="4" compilerOptions="/langversion:default /nowarn:1659;1699;1701" />
+      <compiler language="vb;vbs;visualbasic;vbscript" extension=".vb" type="Microsoft.CodeDom.Providers.DotNetCompilerPlatform.VBCodeProvider, Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=2.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" warningLevel="4" compilerOptions="/langversion:default /nowarn:41008 /define:_MYTYPE=&quot;Web&quot; /optionInfer+" />
+    </compilers>
+  </system.codedom>
+  <system.webServer>
+    <security>
+      <requestFiltering>
+        <requestLimits maxAllowedContentLength="12582912" />
+      </requestFiltering>
+    </security>
+        <defaultDocument>
+            <files>
+                <add value="home.aspx" />
+            </files>
+        </defaultDocument>
+  </system.webServer>
+</configuration>
+<!--ProjectGuid: 11706397-6C6B-4EF1-8425-700EC8840631-->

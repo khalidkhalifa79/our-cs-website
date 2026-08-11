@@ -1,0 +1,192 @@
+Al Bayan Editorial Intake, Archiving & Performance Monitoring System
+
+Editorial Operations, Archiving & Performance Analytics System
+
+Client
+Dubai Media – Al Bayan
+
+Location
+Dubai, UAE
+
+About the Client
+Al Bayan is a major news platform within Dubai Media, where the electronic editorial environment requires structured operational tools to help editors process incoming materials, reduce repetitive work, improve archiving speed, and monitor editorial output more effectively.
+
+Project Overview
+This program was developed as a custom internal system for the Electronic Editorial Department at Al Bayan. It was designed to support the daily editorial workflow by automating link intake, extracting article data, identifying content type, assigning the appropriate section, detecting duplicates, recording insertion time, organizing editor activity, and improving the speed and structure of editorial archiving. In addition, the system introduced a performance-monitoring layer through statistics and visual reporting, helping management track productivity across the editorial team.
+
+The Challenge
+The editorial team needed a faster and more controlled way to handle incoming links and source materials without depending on repetitive manual entry. The workflow also required clearer tracking of each editor’s activity, stronger duplicate control, more organized archiving, and a measurable way to assess performance against the department’s expected daily output.
+
+The Solution
+A custom internal editorial operations system was built to automate the first stage of the digital publishing workflow. Once a link is entered, the program extracts the title, source, date, and section, classifies the content type, checks for duplicates within and across editor workspaces, records the insertion time, and organizes the item inside a structured editorial environment.
+
+On top of this workflow layer, the system provides performance analytics and visual indicators showing whether an editor fell below, met, or exceeded the defined daily target. The minimum required output is configurable and can be set or adjusted by the administrator according to editorial policy.
+
+Core Functional Modules
+
+Editorial Intake Automation
+The program automates the intake of incoming links and converts them into structured editorial records, reducing repetitive manual entry and improving the speed of daily editorial handling.
+
+Metadata Extraction
+It automatically extracts key article data such as the title, source, publication date, and section, allowing editors to work with ready-to-review records instead of filling out each field manually.
+
+Content Type Classification
+The system identifies whether the submitted material is:
+
+News
+Social Media Content
+External Content
+
+This improves editorial organization and helps the team process each item according to its type.
+
+Section Assignment
+The program can determine the most appropriate section for the material based on the source pattern and link structure, helping the editorial team place content in the correct category more quickly and consistently.
+
+Duplicate Detection
+The system detects duplicate content not only within the same editor’s workspace, but also across other editors’ workspaces, helping reduce repeated effort and improve coordination across the department.
+
+Editorial Archiving
+The program organizes the archive of each editor’s activity by recording insertion timestamps and maintaining a structured chronological record of daily editorial work. This makes follow-up, review, and workload tracking much easier.
+
+Editor Performance Monitoring
+The system provides comparative productivity insights across editors, showing who handled more stories and who was more active within the editorial workflow.
+
+Daily Target Tracking
+The program supports performance tracking against a defined minimum daily editorial target. This minimum threshold is configurable by the administrator according to operational needs. The system then shows whether the editor:
+
+fell below the required target
+met the required target
+exceeded the required target
+
+Reporting & Visual Analytics
+The system provides chart-based reporting and operational statistics across multiple time periods:
+
+Daily
+Half-monthly
+Monthly
+Yearly
+
+These reports help managers compare editor productivity, review output patterns, and monitor performance trends over time.
+
+Editor-Based Access Control
+The system supports structured editor-level access and protected operational areas, ensuring that each editor works within assigned responsibilities while administrative control remains centralized and organized.
+
+Key Features
+
+Automated intake of incoming editorial links
+Automatic extraction of title, source, date, and section
+Content-type classification
+Duplicate detection across editorial workspaces
+Automatic insertion timestamping
+Structured archiving of each editor’s work
+Productivity comparison between editors
+Daily target tracking based on an admin-defined minimum
+Visual indicators for under-target, on-target, and above-target output
+Daily, half-monthly, monthly, and yearly analytics
+Structured access control for editors and administration
+
+What Made the Project Special
+What makes this project especially strong is that it was not just a content-entry tool. It functioned as both an operational and analytical system inside the editorial environment. It automated the intake of incoming materials, reduced the time spent on archiving, minimized duplicate work between editors, tracked each editor’s activity, and added a performance-monitoring layer through visual indicators and statistical reporting.
+
+This transformed a repetitive manual process into a more structured, measurable, and efficient editorial workflow.
+
+Business Value
+The program delivered direct operational value by reducing the time spent on content intake and archiving, lowering duplication between editors, improving the organization of incoming materials, and making each editor’s daily activity easier to track. At the same time, it added managerial value through performance metrics and visual reports that helped monitor productivity, measure compliance with the defined editorial target, and support better decision-making inside the editorial workflow.
+
+Polish Version
+Al Bayan Editorial Intake, Archiving & Performance Monitoring System
+
+System operacji redakcyjnych, archiwizacji i analityki wydajności
+
+Klient
+Dubai Media – Al Bayan
+
+Lokalizacja
+Dubaj, ZEA
+
+O kliencie
+Al Bayan to jedna z głównych platform informacyjnych w ramach Dubai Media, gdzie środowisko redakcji elektronicznej wymaga uporządkowanych narzędzi operacyjnych, które pomagają redaktorom przetwarzać napływające materiały, ograniczać powtarzalną pracę, przyspieszać archiwizację oraz skuteczniej monitorować wydajność redakcyjną.
+
+Opis projektu
+Program został opracowany jako dedykowany system wewnętrzny dla Działu Redakcji Elektronicznej Al Bayan. Został zaprojektowany w celu wsparcia codziennego workflow redakcyjnego poprzez automatyzację przyjmowania linków, wyodrębnianie danych artykułów, identyfikację typu treści, przypisywanie odpowiedniej sekcji, wykrywanie duplikatów, rejestrowanie czasu dodania, porządkowanie aktywności redaktorów oraz poprawę szybkości i struktury archiwizacji redakcyjnej.
+
+Dodatkowo system wprowadził warstwę monitorowania wydajności opartą na statystykach i raportowaniu wizualnym, pomagając kierownictwu śledzić produktywność całego zespołu redakcyjnego.
+
+Wyzwanie
+Zespół redakcyjny potrzebował szybszego i bardziej kontrolowanego sposobu obsługi napływających linków i materiałów źródłowych bez polegania na powtarzalnym ręcznym wprowadzaniu danych. Workflow wymagał także wyraźniejszego śledzenia aktywności każdego redaktora, mocniejszej kontroli duplikatów, lepiej uporządkowanej archiwizacji oraz mierzalnego sposobu oceny wydajności względem oczekiwanego dziennego poziomu pracy działu.
+
+Rozwiązanie
+Zbudowano dedykowany wewnętrzny system operacji redakcyjnych, który automatyzuje pierwszy etap cyfrowego workflow publikacyjnego. Po wprowadzeniu linku program wyodrębnia tytuł, źródło, datę i sekcję, klasyfikuje typ treści, sprawdza duplikaty w obrębie tego samego oraz innych obszarów pracy redaktorów, zapisuje czas dodania i organizuje materiał w uporządkowanym środowisku redakcyjnym.
+
+Na tej warstwie workflow system dostarcza także analitykę wydajności oraz wskaźniki wizualne pokazujące, czy redaktor nie osiągnął, osiągnął czy przekroczył określony dzienny cel. Minimalny wymagany poziom pracy jest konfigurowalny i może być ustawiany lub zmieniany przez administratora zgodnie z polityką redakcyjną.
+
+Główne moduły funkcjonalne
+
+Automatyzacja przyjmowania treści redakcyjnych
+Program automatyzuje przyjmowanie napływających linków i przekształca je w uporządkowane rekordy redakcyjne, ograniczając powtarzalne ręczne wpisywanie danych i przyspieszając codzienną obsługę materiałów.
+
+Wyodrębnianie metadanych
+System automatycznie pobiera kluczowe dane artykułu, takie jak tytuł, źródło, data publikacji i sekcja, dzięki czemu redaktorzy pracują na gotowych do przeglądu rekordach zamiast ręcznie wypełniać każde pole.
+
+Klasyfikacja typu treści
+System identyfikuje, czy przesłany materiał jest:
+
+wiadomością
+treścią z mediów społecznościowych
+treścią zewnętrzną
+
+Poprawia to organizację redakcyjną i pomaga zespołowi przetwarzać każdy materiał zgodnie z jego typem.
+
+Przypisywanie sekcji
+Program potrafi określić najbardziej odpowiednią sekcję dla materiału na podstawie wzorca źródła i struktury linku, pomagając zespołowi redakcyjnemu szybciej i bardziej spójnie umieszczać treści we właściwej kategorii.
+
+Wykrywanie duplikatów
+System wykrywa zduplikowane treści nie tylko w obrębie przestrzeni roboczej jednego redaktora, ale także pomiędzy obszarami pracy innych redaktorów, pomagając ograniczać powielanie wysiłku i poprawiać koordynację w dziale.
+
+Archiwizacja redakcyjna
+Program porządkuje archiwum aktywności każdego redaktora, zapisując znaczniki czasu dodania oraz utrzymując uporządkowany chronologicznie zapis codziennej pracy redakcyjnej. Dzięki temu obserwacja, przegląd i śledzenie obciążenia pracą stają się znacznie łatwiejsze.
+
+Monitorowanie wydajności redaktorów
+System dostarcza porównawczych informacji o produktywności redaktorów, pokazując, kto obsłużył więcej materiałów i kto był bardziej aktywny w workflow redakcyjnym.
+
+Śledzenie dziennego celu
+Program wspiera monitorowanie wydajności względem określonego minimalnego dziennego celu redakcyjnego. Ten próg nie jest stały i może być konfigurowany przez administratora zgodnie z potrzebami operacyjnymi. System pokazuje następnie, czy redaktor:
+
+nie osiągnął wymaganego celu
+osiągnął wymagany cel
+przekroczył wymagany cel
+
+Raportowanie i analityka wizualna
+System udostępnia raportowanie oparte na wykresach oraz statystyki operacyjne dla wielu okresów:
+
+dziennych
+półmiesięcznych
+miesięcznych
+rocznych
+
+Raporty te pomagają menedżerom porównywać produktywność redaktorów, analizować wzorce pracy i monitorować trendy wydajności w czasie.
+
+Kontrola dostępu oparta na redaktorach
+System wspiera uporządkowany dostęp na poziomie redaktorów i chronione obszary operacyjne, zapewniając, że każdy redaktor pracuje w ramach przypisanych obowiązków, podczas gdy kontrola administracyjna pozostaje scentralizowana i uporządkowana.
+
+Kluczowe funkcje
+
+Zautomatyzowane przyjmowanie napływających linków redakcyjnych
+Automatyczne wyodrębnianie tytułu, źródła, daty i sekcji
+Klasyfikacja typu treści
+Wykrywanie duplikatów pomiędzy przestrzeniami redakcyjnymi
+Automatyczne zapisywanie czasu dodania
+Uporządkowana archiwizacja pracy każdego redaktora
+Porównywanie produktywności redaktorów
+Śledzenie dziennego celu na podstawie minimalnego poziomu ustalonego przez administratora
+Wskaźniki wizualne dla wyników poniżej celu, na poziomie celu i powyżej celu
+Analityka dzienna, półmiesięczna, miesięczna i roczna
+Uporządkowana kontrola dostępu dla redaktorów i administracji
+
+Co wyróżniało ten projekt
+Siłą tego projektu jest to, że nie był jedynie narzędziem do wprowadzania treści. Funkcjonował jednocześnie jako system operacyjny i analityczny wewnątrz środowiska redakcyjnego. Automatyzował przyjmowanie napływających materiałów, skracał czas potrzebny na archiwizację, ograniczał powielanie pracy między redaktorami, śledził aktywność każdego redaktora i dodawał warstwę monitorowania wydajności poprzez wskaźniki wizualne i raportowanie statystyczne.
+
+To przekształciło powtarzalny proces ręczny w bardziej uporządkowany, mierzalny i efektywny workflow redakcyjny.
+
+Wartość biznesowa
+Program dostarczył bezpośredniej wartości operacyjnej poprzez skrócenie czasu poświęcanego na przyjmowanie treści i archiwizację, ograniczenie duplikacji między redaktorami, poprawę organizacji napływających materiałów oraz ułatwienie śledzenia codziennej aktywności każdego redaktora. Jednocześnie wniósł wartość zarządczą dzięki metrykom wydajności i raportom wizualnym, które pomagały monitorować produktywność, mierzyć zgodność z ustalonym celem redakcyjnym oraz wspierać lepsze podejmowanie decyzji w obrębie workflow redakcyjnego.
