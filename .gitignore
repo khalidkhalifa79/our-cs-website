@@ -17,3 +17,5 @@ Thumbs.db
 
 # Local configuration with secrets
 Web.config
+*.psd
+vercel-site/assets/detail project/
