@@ -1,4 +1,4 @@
-﻿.consultation-page,
+.consultation-page,
 .consultation-main {
     background: #f7f8fc;
 }
@@ -650,4 +650,12 @@
         .footer-contact-line span {
             white-space: normal;
         }
+}
+/* Cloudflare Turnstile */
+.consultation-turnstile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 70px;
+    margin: 18px 0 20px;
 }
