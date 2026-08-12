@@ -1,4 +1,4 @@
-﻿function clean(value) {
+function clean(value) {
   return String(value ?? '').replace(/\r/g, '').trim();
 }
 
@@ -15,6 +15,76 @@ function safeFilename(name) {
     .slice(0, 150);
 }
 
+function successRedirect() {
+  return new Response(null, {
+    status: 303,
+    headers: {
+      Location: '/estimate-project/?sent=1'
+    }
+  });
+}
+
+function getClientIp(request) {
+  const forwarded = request.headers.get('x-forwarded-for');
+
+  if (forwarded) {
+    return forwarded.split(',')[0].trim();
+  }
+
+  return (
+    request.headers.get('x-real-ip') ||
+    request.headers.get('cf-connecting-ip') ||
+    ''
+  );
+}
+
+async function verifyTurnstile(token, secret, remoteIp) {
+  if (!token || typeof token !== 'string' || token.length > 2048) {
+    return {
+      success: false,
+      'error-codes': ['missing-or-invalid-token']
+    };
+  }
+
+  const body = new URLSearchParams();
+  body.set('secret', secret);
+  body.set('response', token);
+
+  if (remoteIp) {
+    body.set('remoteip', remoteIp);
+  }
+
+  try {
+    const response = await fetch(
+      'https://challenges.cloudflare.com/turnstile/v0/siteverify',
+      {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded'
+        },
+        body
+      }
+    );
+
+    if (!response.ok) {
+      return {
+        success: false,
+        'error-codes': ['siteverify-http-error']
+      };
+    }
+
+    return await response.json();
+  }
+  catch (error) {
+    console.error('Turnstile verification error:', error);
+
+    return {
+      success: false,
+      'error-codes': ['siteverify-request-failed']
+    };
+  }
+}
+
 export default {
   async fetch(request) {
 
@@ -26,6 +96,7 @@ export default {
     }
 
     const apiKey = process.env.RESEND_API_KEY;
+    const turnstileSecret = process.env.TURNSTILE_SECRET_KEY;
 
     if (!apiKey) {
       return new Response('Email configuration missing.', {
@@ -33,8 +104,115 @@ export default {
       });
     }
 
+    if (!turnstileSecret) {
+      console.error('TURNSTILE_SECRET_KEY is missing.');
+
+      return new Response(
+        'Security verification configuration missing.',
+        { status: 500 }
+      );
+    }
+
     try {
       const formData = await request.formData();
+
+      // ------------------------------------------------------
+      // 1. HONEYPOT
+      // A real visitor never fills this hidden field.
+      // Return a normal-looking success response without email.
+      // ------------------------------------------------------
+
+      const honeypot = clean(formData.get('website'));
+
+      if (honeypot) {
+        console.warn('Estimate spam blocked by honeypot.');
+        return successRedirect();
+      }
+
+      // ------------------------------------------------------
+      // 2. CLOUDFLARE TURNSTILE
+      // ------------------------------------------------------
+
+      const turnstileToken = clean(
+        formData.get('cf-turnstile-response')
+      );
+
+      const verification = await verifyTurnstile(
+        turnstileToken,
+        turnstileSecret,
+        getClientIp(request)
+      );
+
+      const allowedHostnames = new Set([
+        'our-cs.com',
+        'www.our-cs.com'
+      ]);
+
+      const validTurnstile =
+        verification.success === true &&
+        verification.action === 'estimate' &&
+        allowedHostnames.has(verification.hostname);
+
+      if (!validTurnstile) {
+        console.warn(
+          'Estimate blocked by Turnstile:',
+          JSON.stringify({
+            success: verification.success,
+            hostname: verification.hostname,
+            action: verification.action,
+            errors: verification['error-codes']
+          })
+        );
+
+        return new Response(
+          'Security verification failed. Please refresh the page and try again.',
+          { status: 400 }
+        );
+      }
+
+      // ------------------------------------------------------
+      // 3. BASIC SERVER-SIDE FIELD VALIDATION
+      // ------------------------------------------------------
+
+      const firstName = clean(formData.get('firstName'));
+      const lastName = clean(formData.get('lastName'));
+      const emailAddress = clean(formData.get('emailAddress'));
+      const projectDescription = clean(
+        formData.get('projectDescription')
+      );
+
+      if (
+        firstName.length < 2 ||
+        firstName.length > 80 ||
+        lastName.length < 2 ||
+        lastName.length > 80
+      ) {
+        return new Response(
+          'Please provide a valid first and last name.',
+          { status: 400 }
+        );
+      }
+
+      if (
+        !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailAddress) ||
+        emailAddress.length > 254
+      ) {
+        return new Response(
+          'Please provide a valid email address.',
+          { status: 400 }
+        );
+      }
+
+      if (projectDescription.length > 1000) {
+        return new Response(
+          'Project description is too long.',
+          { status: 400 }
+        );
+      }
+
+      // ------------------------------------------------------
+      // 4. PREPARE EMAIL
+      // ------------------------------------------------------
 
       const lines = [];
       const attachments = [];
@@ -42,7 +220,16 @@ export default {
       let replyTo = '';
       let totalFileSize = 0;
 
+      const internalFields = new Set([
+        'website',
+        'cf-turnstile-response'
+      ]);
+
       for (const [key, value] of formData.entries()) {
+
+        if (internalFields.has(key)) {
+          continue;
+        }
 
         if (typeof value === 'string') {
 
@@ -56,7 +243,7 @@ export default {
 
           if (
             !replyTo &&
-            /email/i.test(key) &&
+            key === 'emailAddress' &&
             /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(text)
           ) {
             replyTo = text;
@@ -131,6 +318,7 @@ export default {
         payload.attachments = attachments;
       }
 
+      // Resend is called ONLY after all anti-spam checks pass.
       const resendResponse = await fetch(
         'https://api.resend.com/emails',
         {
@@ -155,12 +343,7 @@ export default {
         );
       }
 
-      return new Response(null, {
-        status: 303,
-        headers: {
-          Location: '/estimate-project/?sent=1'
-        }
-      });
+      return successRedirect();
     }
     catch (error) {
       console.error('Estimate API error:', error);

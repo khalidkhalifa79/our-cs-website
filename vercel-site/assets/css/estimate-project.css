@@ -1,4 +1,4 @@
-﻿.estimate-page,
+.estimate-page,
 .estimate-main {
     background: #f7f8fc;
 }
@@ -664,4 +664,13 @@
         .estimate-footer-contact-line span {
             white-space: normal;
         }
+}
+
+/* Cloudflare Turnstile */
+.estimate-turnstile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 70px;
+    margin: 18px 0 20px;
 }
