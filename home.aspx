@@ -105,7 +105,7 @@
        data-en="We turn operational requirements into practical digital systems—connecting the records, approvals, content, and processes that keep a business running. Our focus is clear architecture, purposeful functionality, and software you can work with."
        data-pl="Przekładamy wymagania operacyjne na praktyczne systemy cyfrowe, które łączą dane, akceptacje, treści i procesy niezbędne do działania firmy. Stawiamy na przejrzystą architekturę, przemyślane funkcje i oprogramowanie, z którego można sprawnie korzystać.">
         We turn operational requirements into practical digital systems—connecting the records, approvals, content, and processes that keep a business running. Our focus is clear architecture, purposeful functionality, and software you can work with.
-    </p></div>
+    </p><div class="hero-actions" style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:1.5rem;"><a href="/consultation/" class="btn btn-primary lang-text" data-en="Discuss Your Project" data-pl="Omówmy Twój projekt">Discuss Your Project</a><a href="#projects" class="btn btn-light lang-text" data-en="Explore Selected Work" data-pl="Zobacz wybrane realizacje">Explore Selected Work</a></div></div>
 
                     <div class="hero-visual">
                         <img src="assets/img/hero-illustration.png" alt="Illustration representing software engineering and digital workflows" />
@@ -114,15 +114,15 @@
                     <div class="hero-stats">
                         <div class="stat-card">
                             <strong>Understand</strong>
-                            <span class="lang-text" data-en="Map the real workflow" data-pl="Poznaj rzeczywisty proces">Map the real workflow</span>
+                            <span class="lang-text" data-en="Start with the real operational problem." data-pl="Zacznij od rzeczywistego problemu operacyjnego.">Start with the real operational problem.</span>
                         </div>
                         <div class="stat-card">
                             <strong>Engineer</strong>
-                            <span class="lang-text" data-en="Build the right system" data-pl="Zaprojektuj właściwy system">Build the right system</span>
+                            <span class="lang-text" data-en="Build around clear requirements and workflows." data-pl="Buduj w oparciu o jasne wymagania i procesy.">Build around clear requirements and workflows.</span>
                         </div>
                         <div class="stat-card">
                             <strong>Evolve</strong>
-                            <span class="lang-text" data-en="Improve with purpose" data-pl="Rozwijaj świadomie">Improve with purpose</span>
+                            <span class="lang-text" data-en="Improve what the business needs next." data-pl="Rozwijaj to, czego firma potrzebuje dalej.">Improve what the business needs next.</span>
                         </div>
                     </div>
                 </div>
@@ -134,86 +134,66 @@
                     <div class="services-grid">
     <div class="service-card">
         <i class="fa-solid fa-globe"></i>
-        <h3 class="lang-text" data-en="Custom Web Development" data-pl="Dedykowane rozwiązania webowe">Custom Web Development</h3>
+        <h3 class="lang-text" data-en="Custom Business Systems" data-pl="Dedykowane systemy biznesowe">Custom Business Systems</h3>
     </div>
 
     <div class="service-card">
         <i class="fa-solid fa-building"></i>
-        <h3 class="lang-text" data-en="Corporate Website Development" data-pl="Tworzenie stron firmowych">Corporate Website Development</h3>
+        <h3 class="lang-text" data-en="Internal Web Platforms" data-pl="Wewnętrzne platformy internetowe">Internal Web Platforms</h3>
     </div>
 
     <div class="service-card">
         <i class="fa-solid fa-table-columns"></i>
-        <h3 class="lang-text" data-en="Admin Panel Development" data-pl="Tworzenie paneli administracyjnych">Admin Panel Development</h3>
+        <h3 class="lang-text" data-en="Workflow Automation" data-pl="Automatyzacja procesów">Workflow Automation</h3>
     </div>
 
     <div class="service-card">
         <i class="fa-solid fa-sitemap"></i>
-        <h3 class="lang-text" data-en="Internal Business Systems" data-pl="Wewnętrzne systemy biznesowe">Internal Business Systems</h3>
+        <h3 class="lang-text" data-en="Admin &amp; Operations Panels" data-pl="Panele administracyjne i operacyjne">Admin &amp; Operations Panels</h3>
     </div>
 
     <div class="service-card">
         <i class="fa-solid fa-newspaper"></i>
-        <h3 class="lang-text" data-en="CMS & Publishing Platforms" data-pl="Platformy CMS i publikacyjne">CMS & Publishing Platforms</h3>
+        <h3 class="lang-text" data-en="Publishing &amp; CMS Platforms" data-pl="Platformy publikacyjne i CMS">Publishing &amp; CMS Platforms</h3>
     </div>
 
     <div class="service-card">
         <i class="fa-solid fa-database"></i>
-        <h3 class="lang-text" data-en="Database-Driven Web Applications" data-pl="Aplikacje webowe oparte na bazach danych">Database-Driven Web Applications</h3>
+        <h3 class="lang-text" data-en="Data-Driven Applications" data-pl="Aplikacje oparte na danych">Data-Driven Applications</h3>
     </div>
 
     <div class="service-card">
         <i class="fa-solid fa-gears"></i>
-        <h3 class="lang-text" data-en="Workflow Automation Solutions" data-pl="Rozwiązania automatyzacji procesów">Workflow Automation Solutions</h3>
+        <h3 class="lang-text" data-en="Certification Workflows" data-pl="Procesy certyfikacyjne">Certification Workflows</h3>
     </div>
 
     <div class="service-card">
         <i class="fa-solid fa-file-circle-check"></i>
-        <h3 class="lang-text" data-en="Certification & Approval Systems" data-pl="Systemy certyfikacji i zatwierdzania">Certification & Approval Systems</h3>
+        <h3 class="lang-text" data-en="Evaluation Systems" data-pl="Systemy oceny">Evaluation Systems</h3>
     </div>
 
     <div class="service-card">
         <i class="fa-solid fa-file-pdf"></i>
-        <h3 class="lang-text" data-en="PDF & Document Automation" data-pl="Automatyzacja dokumentów i PDF">PDF & Document Automation</h3>
+        <h3 class="lang-text" data-en="Document &amp; PDF Automation" data-pl="Automatyzacja dokumentów i PDF">Document &amp; PDF Automation</h3>
     </div>
 
     <div class="service-card">
         <i class="fa-solid fa-bug"></i>
-        <h3 class="lang-text" data-en="Testing, Debugging & Optimization" data-pl="Testowanie, debugowanie i optymalizacja">Testing, Debugging & Optimization</h3>
+        <h3 class="lang-text" data-en="API &amp; Systems Integration" data-pl="Integracja API i systemów">API &amp; Systems Integration</h3>
     </div>
 
     <div class="service-card">
         <i class="fa-solid fa-magnifying-glass-chart"></i>
-        <h3 class="lang-text" data-en="System Review & Enhancement" data-pl="Przegląd i rozwój systemów">System Review & Enhancement</h3>
+        <h3 class="lang-text" data-en="System Improvement" data-pl="Usprawnianie systemów">System Improvement</h3>
     </div>
 
     <div class="service-card">
         <i class="fa-solid fa-screwdriver-wrench"></i>
-        <h3 class="lang-text" data-en="Maintenance & Technical Support" data-pl="Utrzymanie i wsparcie techniczne">Maintenance & Technical Support</h3>
+        <h3 class="lang-text" data-en="Maintenance &amp; Support" data-pl="Utrzymanie i wsparcie">Maintenance &amp; Support</h3>
     </div>
 </div>
 
-                    <div class="services-side">
-    <p class="section-kicker lang-text" data-en="Our experience" data-pl="Nasze doświadczenie">Our experience</p>
-
-    <h2 class="section-title lang-text" data-en="Services" data-pl="Usługi">Services</h2>
-
-    <h3 class="section-subtitle lang-text" data-en="Software solutions built around real business needs" data-pl="Rozwiązania programistyczne tworzone wokół rzeczywistych potrzeb biznesowych">
-        Software solutions built around real business needs
-    </h3>
-
-    <p class="lang-text"
-       data-en="From corporate websites and admin panels to internal business systems and workflow automation, we develop web-based solutions designed to support operations, improve efficiency, and deliver long-term business value."
-       data-pl="Od stron firmowych i paneli administracyjnych po wewnętrzne systemy biznesowe i automatyzację procesów — tworzymy rozwiązania webowe zaprojektowane tak, aby wspierać operacje, zwiększać efektywność i dostarczać długoterminową wartość biznesową.">
-        From corporate websites and admin panels to internal business systems and workflow automation, we develop web-based solutions designed to support operations, improve efficiency, and deliver long-term business value.
-    </p>
-
-    <p class="lang-text"
-       data-en="Our work focuses on practical, database-driven systems that help organizations manage content, records, approvals, reporting, and day-to-day processes with clarity and control."
-       data-pl="Nasza praca koncentruje się na praktycznych systemach opartych na bazach danych, które pomagają organizacjom zarządzać treściami, danymi, zatwierdzeniami, raportowaniem oraz codziennymi procesami w sposób przejrzysty i uporządkowany.">
-        Our work focuses on practical, database-driven systems that help organizations manage content, records, approvals, reporting, and day-to-day processes with clarity and control.
-    </p>
-</div>
+                    <div class="services-side"><p class="section-kicker lang-text" data-en="What We Build" data-pl="Co tworzymy">What We Build</p><h2 class="section-title lang-text" data-en="Software for Workflows That Matter." data-pl="Oprogramowanie dla ważnych procesów.">Software for Workflows That Matter.</h2><h3 class="section-subtitle lang-text" data-en="Practical systems for real operational needs." data-pl="Praktyczne systemy odpowiadające rzeczywistym potrzebom operacyjnym.">Practical systems for real operational needs.</h3><p class="lang-text" data-en="When critical work depends on spreadsheets, repetitive manual steps, disconnected records, or software that does not match the process, a tailored system can make operations easier to understand and manage." data-pl="Gdy ważna praca zależy od arkuszy kalkulacyjnych, powtarzalnych czynności, rozproszonych danych lub oprogramowania niedopasowanego do procesu, dedykowany system może ułatwić zrozumienie i prowadzenie operacji.">When critical work depends on spreadsheets, repetitive manual steps, disconnected records, or software that does not match the process, a tailored system can make operations easier to understand and manage.</p><p class="lang-text" data-en="OUR-CS designs and develops custom web-based solutions that organize business information, define operational steps, and give the right users access to the tools and views they need." data-pl="OUR-CS projektuje i rozwija dedykowane rozwiązania internetowe, które porządkują informacje biznesowe, definiują etapy pracy i zapewniają odpowiednim użytkownikom dostęp do potrzebnych narzędzi i widoków.">OUR-CS designs and develops custom web-based solutions that organize business information, define operational steps, and give the right users access to the tools and views they need.</p></div></div>
                 </div>
             </section>
 
@@ -221,28 +201,16 @@
 <section class="founder-message-section section-space">
     <div class="container">
         <h2 class="center-title text-left lang-text"
-            data-en="Our Engineering Approach"
+            data-en="Understand the Work. Then Engineer the System."
             data-pl="Nasze podejście inżynierskie">
             Our Engineering Approach
         </h2>
         <article class="founder-message-card">
             <div class="founder-message-grid">
                 <div class="founder-message-copy">
-                    <p class="lang-text"
-                       data-en="Every project starts with understanding the work behind the request: who uses the system, what information moves through it, where decisions happen, and which steps need to become clearer or more reliable."
-                       data-pl="Każdy projekt zaczynamy od zrozumienia pracy stojącej za zgłoszeniem: kto korzysta z systemu, jakie informacje przez niego przepływają, gdzie podejmowane są decyzje i które etapy wymagają większej przejrzystości lub niezawodności.">
-                        Every project starts with understanding the work behind the request: who uses the system, what information moves through it, where decisions happen, and which steps need to become clearer or more reliable.
-                    </p>
-                    <p class="lang-text"
-                       data-en="OUR-CS is founder-led, with direct technical responsibility for solution design and implementation. We keep the work grounded in the agreed scope, explain trade-offs clearly, and aim for maintainable systems that fit the way each organization operates."
-                       data-pl="OUR-CS jest firmą prowadzoną przez założyciela, który bezpośrednio odpowiada za projekt techniczny i realizację. Pracujemy w uzgodnionym zakresie, jasno wyjaśniamy kompromisy i dążymy do tworzenia łatwych w utrzymaniu systemów dopasowanych do sposobu działania organizacji.">
-                        OUR-CS is founder-led, with direct technical responsibility for solution design and implementation. We keep the work grounded in the agreed scope, explain trade-offs clearly, and aim for maintainable systems that fit the way each organization operates.
-                    </p>
-                    <a href="#projects" class="link-arrow lang-text"
-                       data-en="Explore selected work"
-                       data-pl="Zobacz wybrane realizacje">
-                        Explore selected work
-                    </a>
+                    <p class="lang-text" data-en="Useful software starts with a correct understanding of the process. Before defining screens or features, we identify who uses the system, what information moves through it, where decisions are made, and which rules cannot be compromised." data-pl="Dobre oprogramowanie zaczyna się od właściwego zrozumienia procesu. Zanim określimy ekrany i funkcje, ustalamy, kto korzysta z systemu, jakie informacje przez niego przepływają, gdzie zapadają decyzje i których reguł nie można naruszyć.">Useful software starts with a correct understanding of the process. Before defining screens or features, we identify who uses the system, what information moves through it, where decisions are made, and which rules cannot be compromised.</p>
+                    <p class="lang-text" data-en="Development follows a clear structure: model the data, define responsibilities and permissions, implement essential workflows, test real scenarios, and refine the result against the original need." data-pl="Prace przebiegają według jasnej struktury: modelujemy dane, określamy odpowiedzialności i uprawnienia, wdrażamy kluczowe procesy, testujemy rzeczywiste scenariusze i dopracowujemy rozwiązanie zgodnie z pierwotną potrzebą.">Development follows a clear structure: model the data, define responsibilities and permissions, implement essential workflows, test real scenarios, and refine the result against the original need.</p>
+                    <ul class="approach-principles"><li class="lang-text" data-en="Clarity before complexity." data-pl="Przejrzystość przed złożonością.">Clarity before complexity.</li><li class="lang-text" data-en="Accountability for technical decisions." data-pl="Odpowiedzialność za decyzje techniczne.">Accountability for technical decisions.</li><li class="lang-text" data-en="Maintainability beyond launch." data-pl="Łatwość utrzymania także po uruchomieniu.">Maintainability beyond launch.</li></ul><a href="#projects" class="link-arrow lang-text" data-en="See the Work" data-pl="Zobacz realizacje">See the Work</a>
                 </div>
                 <div class="founder-message-media">
                     <div class="founder-message-visual">
@@ -254,140 +222,7 @@
     </div>
 </section>
 
-<!-- REVIEWS -->
-<section class="reviews-section section-space" id="reviews">
-    <div class="container">
-        <h2 class="section-title lang-text" data-en="Our reviews" data-pl="Nasze opinie">
-            Our reviews
-        </h2>
-
-        <div class="slider-box js-slider reviews-slider" data-slider="reviews">
-            <div class="slides">
-
-                <!-- Slide 1 -->
-                <article class="slide active">
-                    <div class="review-showcase">
-                        <div class="review-panel" >
-                            <div class="review-content">
-                                <p class="lang-text"
-                                   data-en=" Our-CS has been a reliable technology partner for our business. Their professionalism, technical quality, and ability to build structured systems around real operational needs made a major difference to our efficiency and growth."
-                                   data-pl="Our-CS okazało się niezawodnym partnerem technologicznym dla naszej firmy. Ich profesjonalizm, jakość techniczna oraz umiejętność tworzenia uporządkowanych systemów opartych na rzeczywistych potrzebach operacyjnych miały ogromny wpływ na naszą efektywność i rozwój.">
- Our-CS has been a reliable technology partner for our business. Their professionalism, technical quality, and ability to build structured systems around real operational needs made a major difference to our efficiency and growth.
-                                </p>
-
-                                <div class="review-author">
-                                    <h4>Dr. Anas Khalifa</h4>
-                                    <span class="lang-text" data-en=" Founder & CEO, ECI Safety Horizon" data-pl="Założyciel i CEO, ECI Safety Horizon">
-                                        Founder & CEO, ECI Safety Horizon
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="review-floating-image">
-                            <img src="assets/img/review-1.png" alt="Dr. Anas Khalifa" />
-                        </div>
-                    </div>
-                </article>
-
-                <!-- Slide 2 -->
-                <article class="slide">
-                    <div class="review-showcase">
-                        <div class="review-panel" style="--review-bg: url('assets/img/review-bg.jpg');">
-                            <div class="review-content">
-                                <p class="lang-text"
-                                   data-en="We always turn to Our-CS first for development needs. Their professionalism, technical quality, and ability to build structured, business-focused systems made a major difference to our growth."
-                                   data-pl="Zawsze w pierwszej kolejności zwracamy się do Our-CS, gdy potrzebujemy wsparcia w zakresie rozwoju oprogramowania. Ich profesjonalizm, jakość techniczna oraz umiejętność tworzenia uporządkowanych, zorientowanych na biznes systemów miały ogromny wpływ na nasz rozwój.">
-We always turn to Our-CS first for development needs. Their professionalism, technical quality, and ability to build structured, business-focused systems made a major difference to our growth.
-                                </p>
-
-                                <div class="review-author">
-                                    <h4>Dr. Mohamed Ghobashy</h4>
-                                    <span class="lang-text" data-en="  Partner & Commercial Director, ECI Safety Horizon" data-pl="Partner i Dyrektor Handlowy, ECI Safety Horizon">
-                                         Partner & Commercial Director, ECI Safety Horizon
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="review-floating-image">
-                            <img src="assets/img/review-2.png" alt="Dr. Mohamed Ghobashy" />
-                        </div>
-                    </div>
-                </article>
-
-                 <!-- Slide 3 -->
- <article class="slide">
-     <div class="review-showcase">
-         <div class="review-panel" style="--review-bg: url('assets/img/review-bg.jpg');">
-             <div class="review-content">
-                 <p class="lang-text"
-                    data-en="Our-CS has been a reliable technology partner for our business. Their professionalism, technical quality, and ability to build structured systems around real operational needs made a major difference to our efficiency and long-term growth."
-                    data-pl="Our-CS stało się dla naszej firmy niezawodnym partnerem technologicznym. Ich profesjonalizm, jakość techniczna oraz umiejętność tworzenia uporządkowanych systemów opartych na rzeczywistych potrzebach operacyjnych miały ogromny wpływ na naszą efektywność i długoterminowy rozwój.">
-                     Our-CS has been a reliable technology partner for our business. Their professionalism, technical quality, and ability to build structured systems around real operational needs made a major difference to our efficiency and long-term growth.
-                 </p>
-
-                 <div class="review-author">
-                     <h4>Ali Alzakary</h4>
-                     <span class="lang-text" data-en="Founder & Editor-in-Chief, Qahwa World" data-pl="Założyciel i Redaktor Naczelny, Qahwa World">
-                         Founder & Editor-in-Chief, Qahwa World
-                     </span>
-                 </div>
-             </div>
-         </div>
-
-         <div class="review-floating-image">
-             <img src="assets/img/review-3.png" alt="Ali Alzakary" />
-         </div>
-     </div>
- </article>
-
-                 <!-- Slide 4 -->
- <article class="slide">
-     <div class="review-showcase">
-         <div class="review-panel" style="--review-bg: url('assets/img/review-bg.jpg');">
-             <div class="review-content">
-                 <p class="lang-text"
-                    data-en="Working with Our-CS has had a real impact on our company. The team understood our business needs clearly and delivered a well-structured system that improved our operations and created lasting value."
-                    data-pl="Współpraca z Our-CS miała realny wpływ na naszą firmę. Zespół jasno zrozumiał nasze potrzeby biznesowe i dostarczył dobrze uporządkowany system, który usprawnił nasze działania operacyjne i stworzył trwałą wartość.">
-                     Working with Our-CS has had a real impact on our company. The team understood our business needs clearly and delivered a well-structured system that improved our operations and created lasting value.
-                 </p>
-
-                 <div class="review-author">
-                     <h4>Andra Oproiu</h4>
-                     <span class="lang-text" data-en="Principal, Beacon of Light Private Elementary School" data-pl="Dyrektor, Beacon of Light Private Elementary School">
-                        Principal, Beacon of Light Private Elementary School
-                     </span>
-                 </div>
-             </div>
-         </div>
-
-         <div class="review-floating-image">
-             <img src="assets/img/review-4.png" alt="Andra Oproiu" />
-         </div>
-     </div>
- </article>
-            </div>
-
-
-            <!-- Bottom navigation -->
-            <div class="review-nav">
-                <button type="button" class="review-nav-btn prev" data-action="prev" aria-label="Previous review">
-                    <i class="fa-solid fa-arrow-left"></i>
-                </button>
-
-                <div class="review-counter">
-                    <span class="review-current">1</span>/<span class="review-total">4</span>
-                </div>
-
-                <button type="button" class="review-nav-btn next" data-action="next" aria-label="Next review">
-                    <i class="fa-solid fa-arrow-right"></i>
-                </button>
-            </div>
-        </div>
-    </div>
-</section>
-            <!-- PROJECTS -->
+<!-- REVIEWS --><section class="reviews-section section-space" id="reviews"><div class="container"><h2 class="section-title lang-text" data-en="Selected Project Experience" data-pl="Wybrane doświadczenia projektowe">Selected Project Experience</h2><p class="lang-text" data-en="Selected projects span education technology, certification operations, editorial workflows, specialist publishing and venue management. Each case study describes the operational context and the scope of the work." data-pl="Wybrane projekty obejmują technologie edukacyjne, procesy certyfikacyjne, pracę redakcyjną, publikacje specjalistyczne i zarządzanie lokalami. Każdy opis przedstawia kontekst operacyjny i zakres prac.">Selected projects span education technology, certification operations, editorial workflows, specialist publishing and venue management. Each case study describes the operational context and the scope of the work.</p><div class="slider-box js-slider reviews-slider" data-slider="reviews"><div class="slides"><article class="slide active"><div class="review-showcase"><div class="review-panel"><div class="review-content"><p class="lang-text" data-en="Academic structures, learning outcomes, assessments and reporting organized within a school-focused platform." data-pl="Struktury akademickie, efekty uczenia się, oceny i raportowanie uporządkowane w platformie dla szkół.">Academic structures, learning outcomes, assessments and reporting organized within a school-focused platform.</p><div class="review-author"><h4 class="lang-text" data-en="Education Technology" data-pl="Technologie edukacyjne">Education Technology</h4><span class="lang-text" data-en="Selected work area" data-pl="Obszar realizacji">Selected work area</span></div></div></div></div></article><article class="slide"><div class="review-showcase"><div class="review-panel"><div class="review-content"><p class="lang-text" data-en="Structured records, eligibility checks, approval states and controlled document workflows." data-pl="Uporządkowane rekordy, weryfikacja kwalifikacji, stany zatwierdzania i kontrolowane procesy dokumentowe.">Structured records, eligibility checks, approval states and controlled document workflows.</p><div class="review-author"><h4 class="lang-text" data-en="Certification Operations" data-pl="Procesy certyfikacyjne">Certification Operations</h4><span class="lang-text" data-en="Selected work area" data-pl="Obszar realizacji">Selected work area</span></div></div></div></div></article><article class="slide"><div class="review-showcase"><div class="review-panel"><div class="review-content"><p class="lang-text" data-en="Publishing websites and internal editorial tools for content, media, categories and workflow organization." data-pl="Serwisy publikacyjne i wewnętrzne narzędzia redakcyjne do organizacji treści, mediów, kategorii i procesów.">Publishing websites and internal editorial tools for content, media, categories and workflow organization.</p><div class="review-author"><h4 class="lang-text" data-en="Publishing & Editorial" data-pl="Publikacje i redakcja">Publishing & Editorial</h4><span class="lang-text" data-en="Selected work area" data-pl="Obszar realizacji">Selected work area</span></div></div></div></div></article><article class="slide"><div class="review-showcase"><div class="review-panel"><div class="review-content"><p class="lang-text" data-en="Operational views for bookable resources, timed sessions, reservations and billing." data-pl="Widoki operacyjne do obsługi zasobów, sesji czasowych, rezerwacji i rozliczeń.">Operational views for bookable resources, timed sessions, reservations and billing.</p><div class="review-author"><h4 class="lang-text" data-en="Venue Operations" data-pl="Obsługa lokali">Venue Operations</h4><span class="lang-text" data-en="Selected work area" data-pl="Obszar realizacji">Selected work area</span></div></div></div></div></article></div><div class="review-nav"><button type="button" class="review-nav-btn prev" data-action="prev" aria-label="Previous item"><i class="fa-solid fa-arrow-left"></i></button><div class="review-counter"><span class="review-current">1</span>/<span class="review-total">4</span></div><button type="button" class="review-nav-btn next" data-action="next" aria-label="Next item"><i class="fa-solid fa-arrow-right"></i></button></div></div></div></section><!-- PROJECTS -->
 <section class="projects-section section-space" id="projects">
     <div class="container">
         <h2 class="section-title lang-text" data-en="Our Projects" data-pl="Nasze projekty">Our Projects</h2>
