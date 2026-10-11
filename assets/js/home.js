@@ -47,6 +47,13 @@
             }
         });
 
+        document.querySelectorAll("option.lang-option").forEach(function (option) {
+            const optionText = option.getAttribute("data-" + lang);
+            if (optionText !== null) {
+                option.textContent = optionText;
+            }
+        });
+
         const placeholderItems = document.querySelectorAll(".lang-placeholder");
         placeholderItems.forEach(function (el) {
             const newPlaceholder = el.getAttribute("data-placeholder-" + lang);
