@@ -56,14 +56,14 @@
                 <nav class="main-nav" id="mainNav">
                     <a href="home.aspx#services" class="nav-link lang-text" data-en="Services" data-pl="Usługi">Services</a>
                     <a href="home.aspx#projects" class="nav-link active lang-text" data-en="Selected Work" data-pl="Realizacje">Selected Work</a>
-                    <a href="home.aspx#about" class="nav-link lang-text" data-en="Overview" data-pl="Przegląd">Overview</a>
-                    <a href="home.aspx#reviews" class="nav-link lang-text" data-en="Reviews" data-pl="Opinie">Reviews</a>
-                    <a href="home.aspx#MapofClients" class="nav-link lang-text" data-en="Map of Clients" data-pl="Mapa klientów">Map of Clients</a>
+                    <a href="/#approach" class="nav-link lang-text" data-en="Approach" data-pl="Podejście">Approach</a>
+                    <a href="home.aspx#reviews" class="nav-link lang-text" data-en="Project Experience" data-pl="Doświadczenie projektowe">Project Experience</a>
+                    <a href="home.aspx#MapofClients" class="nav-link lang-text" data-en="Industries &amp; Use Cases" data-pl="Branże i zastosowania">Industries &amp; Use Cases</a>
                     <a href="consultation.aspx" class="nav-link lang-text" data-en="Contact" data-pl="Kontakt">Contact</a>
                 </nav>
 
                 <div class="header-actions">
-                    <a href="estimate-project.aspx" class="btn btn-primary lang-text" data-en="Estimate Project" data-pl="Wyceń projekt">Estimate Project</a>
+                    <a href="estimate-project.aspx" class="btn btn-primary lang-text" data-en="Request an Estimate" data-pl="Poproś o wycenę">Request an Estimate</a>
 
                     <div class="lang-switcher">
                         <button type="button" class="lang-btn active" data-lang="en">ENG</button>
@@ -504,8 +504,8 @@
                             </p>
 
                             <div class="project-cta-actions">
-                                <a href="consultation.aspx" class="btn btn-primary lang-text" data-en="Book Consultation" data-pl="Umów konsultację">Book Consultation</a>
-                                <a href="estimate-project.aspx" class="btn btn-light lang-text" data-en="Estimate Project" data-pl="Wyceń projekt">Estimate Project</a>
+                                <a href="consultation.aspx" class="btn btn-primary lang-text" data-en="Discuss Your Project" data-pl="Omów swój projekt">Discuss Your Project</a>
+                                <a href="estimate-project.aspx" class="btn btn-light lang-text" data-en="Request an Estimate" data-pl="Poproś o wycenę">Request an Estimate</a>
                             </div>
                         </div>
                     </div>
