@@ -17,7 +17,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Get a Project Estimate | Our-CS Custom Software</title>
+    <title>Request a Software Project Estimate | OUR-CS</title>
 
     <meta name="description" content="Request a project estimate from Our-CS for custom software, business systems, admin panels, internal platforms, workflow automation and web development." />
     <meta name="robots" content="index, follow" />
@@ -53,15 +53,15 @@
 
                 <nav class="main-nav" id="mainNav">
                     <a href="home.aspx#services" class="nav-link lang-text" data-en="Services" data-pl="Usługi">Services</a>
-                    <a href="home.aspx#projects" class="nav-link lang-text" data-en="Our Projects" data-pl="Nasze projekty">Our Projects</a>
-                    <a href="home.aspx#about" class="nav-link lang-text" data-en="Overview" data-pl="Przegląd">Overview</a>
-                    <a href="home.aspx#reviews" class="nav-link lang-text" data-en="Reviews" data-pl="Opinie">Reviews</a>
-                    <a href="home.aspx#MapofClients" class="nav-link lang-text" data-en="Map of Clients" data-pl="Mapa klientów">Map of Clients</a>
+                    <a href="home.aspx#projects" class="nav-link lang-text" data-en="Selected Work" data-pl="Realizacje">Selected Work</a>
+                    <a href="/#approach" class="nav-link lang-text" data-en="Approach" data-pl="Podejście">Approach</a>
+                    <a href="home.aspx#reviews" class="nav-link lang-text" data-en="Client Feedback" data-pl="Opinie klientów">Client Feedback</a>
+                    <a href="home.aspx#MapofClients" class="nav-link lang-text" data-en="Industries &amp; Use Cases" data-pl="Branże i zastosowania">Industries &amp; Use Cases</a>
                     <a href="consultation.aspx" class="nav-link lang-text" data-en="Contact" data-pl="Kontakt">Contact</a>
                 </nav>
 
                 <div class="header-actions">
-                    <a href="#estimateForm" class="btn btn-primary lang-text" data-en="Estimate Project" data-pl="Wyceń projekt">Estimate Project</a>
+                    <a href="#estimateForm" class="btn btn-primary lang-text" data-en="Request an Estimate" data-pl="Poproś o wycenę">Request an Estimate</a>
 
                     <div class="lang-switcher">
                         <button type="button" class="lang-btn active" data-lang="en">ENG</button>
@@ -83,17 +83,9 @@
             <section class="estimate-hero-form-section" id="estimateForm">
     <div class="container">
 
-        <p class="estimate-kicker lang-text"
-           data-en="Tell us what you need"
-           data-pl="Powiedz nam, czego potrzebujesz">
-            Tell us what you need
-        </p>
+        <p class="estimate-kicker lang-text lang-text" data-en="PROJECT SCOPE" data-pl="ZAKRES PROJEKTU">PROJECT SCOPE</p>
 
-        <h1 class="estimate-title lang-text"
-            data-en="Get an estimate"
-            data-pl="Uzyskaj wycenę">
-            Get an estimate
-        </h1>
+        <h1 class="estimate-title lang-text lang-text" data-en="Request a Software Project Estimate" data-pl="Poproś o wycenę projektu programistycznego">Request a Software Project Estimate</h1><p class="page-intro lang-text" data-en="Tell us what you need to build or improve. We'll review your information and identify what is required to prepare a realistic scope and estimate." data-pl="Opisz, co chcesz zbudować lub usprawnić. Przeanalizujemy informacje i określimy, czego potrzeba do przygotowania realistycznego zakresu i wyceny.">Tell us what you need to build or improve. We'll review your information and identify what is required to prepare a realistic scope and estimate.</p>
 
         <div class="estimate-form-layout">
 
@@ -109,11 +101,7 @@
                         <i class="fa-solid fa-users-gear"></i>
                     </div>
 
-                    <h3 class="lang-text"
-                        data-en="Free expert consultation"
-                        data-pl="Bezpłatna konsultacja ekspercka">
-                        Free expert consultation
-                    </h3>
+                    <h3 class="lang-text" data-en="Requirement Review" data-pl="Przegląd wymagań">Requirement Review</h3><p class="lang-text benefit-description" data-en="Identify the main business and technical requirements." data-pl="Określ główne wymagania biznesowe i techniczne.">Identify the main business and technical requirements.</p>
                 </div>
 
                 <div class="estimate-side-slide">
@@ -127,11 +115,7 @@
                         <i class="fa-solid fa-user-check"></i>
                     </div>
 
-                    <h3 class="lang-text"
-                        data-en="A well selected team"
-                        data-pl="Dobrze dobrany zespół">
-                        A well selected team
-                    </h3>
+                    <h3 class="lang-text" data-en="Scope Clarification" data-pl="Doprecyzowanie zakresu">Scope Clarification</h3><p class="lang-text benefit-description" data-en="Separate essential workflows from optional features." data-pl="Oddziel kluczowe procesy od funkcji opcjonalnych.">Separate essential workflows from optional features.</p>
                 </div>
 
                 <div class="estimate-side-slide">
@@ -145,11 +129,7 @@
                         <i class="fa-solid fa-diagram-project"></i>
                     </div>
 
-                    <h3 class="lang-text"
-                        data-en="A clear project direction"
-                        data-pl="Jasny kierunek projektu">
-                        A clear project direction
-                    </h3>
+                    <h3 class="lang-text" data-en="Estimate Preparation" data-pl="Przygotowanie wyceny">Estimate Preparation</h3><p class="lang-text benefit-description" data-en="Outline the assumptions and information needed for a credible estimate." data-pl="Wskaż założenia i informacje potrzebne do wiarygodnej wyceny.">Outline the assumptions and information needed for a credible estimate.</p>
                 </div>
 
                 <div class="estimate-side-dots">
@@ -168,7 +148,7 @@
         <input type="text" id="website" name="website" autocomplete="off" tabindex="-1" />
     </div>
 
-    <div class="estimate-fields-grid">
+    <h2 class="form-section-heading lang-text" data-en="Tell Us About the Project" data-pl="Opowiedz o projekcie">Tell Us About the Project</h2><div class="estimate-fields-grid">
         <div class="estimate-field">
             <input type="text"
                    name="firstName"
@@ -284,10 +264,8 @@
 
     <div class="estimate-buttons-row">
         <button type="submit" class="estimate-submit-btn lang-text"
-                data-en="Estimate"
-                data-pl="Wycena">
-            Estimate
-        </button>
+                data-en="Send Estimate Request"
+                data-pl="Wycena">Send Estimate Request</button>
     </div>
 </section>
         </div>

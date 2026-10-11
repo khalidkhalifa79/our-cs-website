@@ -55,15 +55,15 @@
 
                 <nav class="main-nav" id="mainNav">
                     <a href="home.aspx#services" class="nav-link lang-text" data-en="Services" data-pl="Usługi">Services</a>
-                    <a href="home.aspx#projects" class="nav-link active lang-text" data-en="Our Projects" data-pl="Nasze projekty">Our Projects</a>
-                    <a href="home.aspx#about" class="nav-link lang-text" data-en="Overview" data-pl="Przegląd">Overview</a>
-                    <a href="home.aspx#reviews" class="nav-link lang-text" data-en="Reviews" data-pl="Opinie">Reviews</a>
-                    <a href="home.aspx#MapofClients" class="nav-link lang-text" data-en="Map of Clients" data-pl="Mapa klientów">Map of Clients</a>
+                    <a href="home.aspx#projects" class="nav-link active lang-text" data-en="Selected Work" data-pl="Realizacje">Selected Work</a>
+                    <a href="/#approach" class="nav-link lang-text" data-en="Approach" data-pl="Podejście">Approach</a>
+                    <a href="home.aspx#reviews" class="nav-link lang-text" data-en="Project Experience" data-pl="Doświadczenie projektowe">Project Experience</a>
+                    <a href="home.aspx#MapofClients" class="nav-link lang-text" data-en="Industries &amp; Use Cases" data-pl="Branże i zastosowania">Industries &amp; Use Cases</a>
                     <a href="consultation.aspx" class="nav-link lang-text" data-en="Contact" data-pl="Kontakt">Contact</a>
                 </nav>
 
                 <div class="header-actions">
-                    <a href="estimate-project.aspx" class="btn btn-primary lang-text" data-en="Estimate Project" data-pl="Wyceń projekt">Estimate Project</a>
+                    <a href="estimate-project.aspx" class="btn btn-primary lang-text" data-en="Request an Estimate" data-pl="Poproś o wycenę">Request an Estimate</a>
 
                     <div class="lang-switcher">
                         <button type="button" class="lang-btn active" data-lang="en">ENG</button>
@@ -164,7 +164,7 @@
                         <div class="project-main-flow">
 
                             <div class="project-step-copy project-copy-block" data-step="1">
-                                <h2 class="lang-text" data-en="About the Client" data-pl="O kliencie">About the Client</h2>
+                                <h2 class="lang-text" data-en="Project Context" data-pl="Kontekst projektu">Project Context</h2>
 
                                 <p class="lang-text"
                                    data-en="<%: CurrentProject.AboutClientEn %>"
@@ -275,7 +275,7 @@
                 <div class="container">
                     <div class="project-split-grid">
                         <div class="project-step-copy split-step-copy" data-step="3">
-                            <h2 class="lang-text" data-en="The Challenge" data-pl="Wyzwanie">The Challenge</h2>
+                            <h2 class="lang-text" data-en="The Operational Challenge" data-pl="Wyzwanie operacyjne">The Operational Challenge</h2>
 
                             <p class="lang-text"
                                data-en="<%: CurrentProject.ChallengeBodyEn %>"
@@ -302,7 +302,7 @@
                         </div>
 
                         <div class="project-step-copy split-step-copy" data-step="4">
-                            <h2 class="lang-text" data-en="The Solution" data-pl="Rozwiązanie">The Solution</h2>
+                            <h2 class="lang-text" data-en="The Engineering Response" data-pl="Zastosowane rozwiązanie">The Engineering Response</h2>
 
                             <p class="lang-text"
                                data-en="<%: CurrentProject.SolutionBodyEn %>"
@@ -323,9 +323,7 @@
                         </div>
 
                         <div class="project-special-copy">
-                            <h2 class="lang-text" data-en="What Made the Project Special" data-pl="Co wyróżniało ten projekt">
-                                What Made the Project Special
-                            </h2>
+                            <h2 class="lang-text" data-en="Engineering Considerations" data-pl="Założenia techniczne">Engineering Considerations</h2>
 
                             <p class="lang-text"
                                data-en="<%: CurrentProject.SpecialBodyEn %>"
@@ -371,7 +369,7 @@
                 <div class="container">
                     <div class="project-value-box">
                         <div class="project-step-copy project-value-copy" data-step="5">
-                            <h2 class="lang-text" data-en="Business Value" data-pl="Wartość biznesowa">Business Value</h2>
+                            <h2 class="lang-text" data-en="Value of the Approach" data-pl="Wartość rozwiązania">Value of the Approach</h2>
 
                             <p class="lang-text"
                                data-en="<%: CurrentProject.BusinessValueEn %>"
@@ -387,7 +385,7 @@
             <section class="project-gallery-section">
                 <div class="container">
                     <div class="project-gallery-head">
-                        <h2 class="lang-text" data-en="Project Gallery" data-pl="Galeria projektu">Project Gallery</h2>
+                        <h2 class="lang-text" data-en="Project Screens" data-pl="Ekrany projektu">Project Screens</h2>
 
                         <div class="project-gallery-counter">
                             <button type="button" class="project-gallery-arrow project-gallery-prev" aria-label="Previous image">
@@ -497,11 +495,7 @@
                         </div>
 
                         <div class="project-cta-copy">
-                            <h2 class="lang-text"
-                                data-en="Need a similar solution for your business?"
-                                data-pl="Potrzebujesz podobnego rozwiązania dla swojego biznesu?">
-                                Need a similar solution for your business?
-                            </h2>
+                            <h2 class="lang-text" data-en="Let’s Define the Right Software for the Job." data-pl="Dobierzmy oprogramowanie do rzeczywistych potrzeb.">Let’s Define the Right Software for the Job.</h2>
 
                             <p class="lang-text"
                                data-en="We build practical software systems around real workflows, operations, and long-term business needs. Let’s talk about the right structure for your next project."
@@ -510,8 +504,8 @@
                             </p>
 
                             <div class="project-cta-actions">
-                                <a href="consultation.aspx" class="btn btn-primary lang-text" data-en="Book Consultation" data-pl="Umów konsultację">Book Consultation</a>
-                                <a href="estimate-project.aspx" class="btn btn-light lang-text" data-en="Estimate Project" data-pl="Wyceń projekt">Estimate Project</a>
+                                <a href="consultation.aspx" class="btn btn-primary lang-text" data-en="Discuss Your Project" data-pl="Omów swój projekt">Discuss Your Project</a>
+                                <a href="estimate-project.aspx" class="btn btn-light lang-text" data-en="Request an Estimate" data-pl="Poproś o wycenę">Request an Estimate</a>
                             </div>
                         </div>
                     </div>

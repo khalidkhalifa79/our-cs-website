@@ -16,7 +16,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Book a Software Consultation | Our-CS Business Systems</title>
+    <title>Discuss Your Software Project | OUR-CS</title>
 
     <meta name="description" content="Book a free consultation with Our-CS for custom business systems, admin panels, workflow automation, internal platforms and web development." />
     <meta name="robots" content="index, follow" />
@@ -53,15 +53,15 @@
 
                 <nav class="main-nav" id="mainNav">
                     <a href="home.aspx#services" class="nav-link lang-text" data-en="Services" data-pl="Usługi">Services</a>
-                    <a href="home.aspx#projects" class="nav-link lang-text" data-en="Our Projects" data-pl="Nasze projekty">Our Projects</a>
-                    <a href="home.aspx#about" class="nav-link lang-text" data-en="Overview" data-pl="Przegląd">Overview</a>
-                    <a href="home.aspx#reviews" class="nav-link lang-text" data-en="Reviews" data-pl="Opinie">Reviews</a>
-                    <a href="home.aspx#MapofClients" class="nav-link lang-text" data-en="Map of Clients" data-pl="Mapa klientów">Map of Clients</a>
+                    <a href="home.aspx#projects" class="nav-link lang-text" data-en="Selected Work" data-pl="Realizacje">Selected Work</a>
+                    <a href="/#approach" class="nav-link lang-text" data-en="Approach" data-pl="Podejście">Approach</a>
+                    <a href="home.aspx#reviews" class="nav-link lang-text" data-en="Client Feedback" data-pl="Opinie klientów">Client Feedback</a>
+                    <a href="home.aspx#MapofClients" class="nav-link lang-text" data-en="Industries &amp; Use Cases" data-pl="Branże i zastosowania">Industries &amp; Use Cases</a>
                     <a href="#consultationFooter" class="nav-link lang-text" data-en="Contact" data-pl="Kontakt">Contact</a>
                 </nav>
 
                 <div class="header-actions">
-                    <a href="#consultationForm" class="btn btn-primary lang-text" data-en="Book Consultation" data-pl="Umów konsultację">Book Consultation</a>
+                    <a href="#consultationForm" class="btn btn-primary lang-text" data-en="Discuss Your Project" data-pl="Omów swój projekt">Discuss Your Project</a>
 
                     <div class="lang-switcher">
                         <button type="button" class="lang-btn active" data-lang="en">ENG</button>
@@ -83,74 +83,42 @@
             <section class="consultation-hero-form-section" id="consultationForm">
                 <div class="container">
 
-                    <p class="consultation-kicker lang-text"
-                       data-en="Tell us what you need help with"
-                       data-pl="Powiedz nam, w czym potrzebujesz wsparcia">
-                        Tell us what you need help with
-                    </p>
+                    <p class="consultation-kicker lang-text lang-text" data-en="START WITH THE PROBLEM" data-pl="ZACZNIJ OD PROBLEMU">START WITH THE PROBLEM</p>
 
-                    <h1 class="consultation-title lang-text"
-                        data-en="Book a consultation"
-                        data-pl="Umów konsultację">
-                        Book a consultation
-                    </h1>
+                    <h1 class="consultation-title lang-text lang-text" data-en="Discuss Your Software Project" data-pl="Omów swój projekt programistyczny">Discuss Your Software Project</h1><p class="page-intro lang-text" data-en="Describe the workflow, system, or business process you want to improve. A short outline is enough for an initial discussion." data-pl="Opisz proces, system lub działanie biznesowe, które chcesz usprawnić. Krótki zarys wystarczy na wstępną rozmowę.">Describe the workflow, system, or business process you want to improve. A short outline is enough for an initial discussion.</p>
 
                     <div class="consultation-form-layout">
 
                         <!-- LEFT SIDE -->
                         <aside class="consultation-side-card">
                             <div class="consultation-side-slide active">
-                                <p class="consultation-side-label lang-text"
-                                   data-en="What you'll receive:"
-                                   data-pl="Co otrzymasz:">
-                                    What you'll receive:
-                                </p>
+                                <p class="consultation-side-label lang-text" data-en="Consultation focus" data-pl="Temat rozmowy">Consultation focus</p>
 
                                 <div class="consultation-side-icon">
                                     <i class="fa-solid fa-comments"></i>
                                 </div>
 
-                                <h3 class="lang-text"
-                                    data-en="Free initial consultation"
-                                    data-pl="Bezpłatna konsultacja wstępna">
-                                    Free initial consultation
-                                </h3>
+                                <h3 class="lang-text" data-en="Requirement Review" data-pl="Przegląd wymagań">Requirement Review</h3><p class="lang-text benefit-description" data-en="An initial discussion of your goals, constraints and operating context." data-pl="Wstępna rozmowa o celach, ograniczeniach i kontekście działania.">An initial discussion of your goals, constraints and operating context.</p>
                             </div>
 
                             <div class="consultation-side-slide">
-                                <p class="consultation-side-label lang-text"
-                                   data-en="What you'll receive:"
-                                   data-pl="Co otrzymasz:">
-                                    What you'll receive:
-                                </p>
+                                <p class="consultation-side-label lang-text" data-en="Consultation focus" data-pl="Temat rozmowy">Consultation focus</p>
 
                                 <div class="consultation-side-icon">
                                     <i class="fa-solid fa-compass-drafting"></i>
                                 </div>
 
-                                <h3 class="lang-text"
-                                    data-en="Practical technical direction"
-                                    data-pl="Praktyczny kierunek techniczny">
-                                    Practical technical direction
-                                </h3>
+                                <h3 class="lang-text" data-en="Technical Direction" data-pl="Kierunek techniczny">Technical Direction</h3><p class="lang-text benefit-description" data-en="A practical view of potential approaches and points requiring clarification." data-pl="Praktyczny przegląd możliwych podejść i kwestii wymagających doprecyzowania.">A practical view of potential approaches and points requiring clarification.</p>
                             </div>
 
                             <div class="consultation-side-slide">
-                                <p class="consultation-side-label lang-text"
-                                   data-en="What you'll receive:"
-                                   data-pl="Co otrzymasz:">
-                                    What you'll receive:
-                                </p>
+                                <p class="consultation-side-label lang-text" data-en="Consultation focus" data-pl="Temat rozmowy">Consultation focus</p>
 
                                 <div class="consultation-side-icon">
                                     <i class="fa-solid fa-diagram-project"></i>
                                 </div>
 
-                                <h3 class="lang-text"
-                                    data-en="Clear next steps for your project"
-                                    data-pl="Jasne kolejne kroki dla projektu">
-                                    Clear next steps for your project
-                                </h3>
+                                <h3 class="lang-text" data-en="Defined Next Step" data-pl="Ustalenie kolejnego kroku">Defined Next Step</h3><p class="lang-text benefit-description" data-en="A recommendation for what information is needed before scoping development." data-pl="Wskazanie informacji potrzebnych przed określeniem zakresu prac.">A recommendation for what information is needed before scoping development.</p>
                             </div>
 
                             <div class="consultation-side-dots">
@@ -170,7 +138,7 @@
         <input type="text" id="website" name="website" autocomplete="off" tabindex="-1" />
     </div>
 
-    <div class="consultation-fields-grid">
+    <h2 class="form-section-heading lang-text" data-en="Tell Us About Your Requirements" data-pl="Opowiedz o swoich wymaganiach">Tell Us About Your Requirements</h2><div class="consultation-fields-grid">
         <div class="consultation-field">
             <input type="text"
                    name="firstName"
@@ -327,10 +295,8 @@
 
     <div class="consultation-buttons-row">
         <button type="submit" class="consultation-submit-btn lang-text"
-                data-en="Book consultation"
-                data-pl="Umów konsultację">
-            Book consultation
-        </button>
+                data-en="Send Consultation Request"
+                data-pl="Umów konsultację">Send Consultation Request</button>
     </div>
 </section>
                     </div>
