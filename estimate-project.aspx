@@ -128,9 +128,9 @@
                     </div>
 
                     <h3 class="lang-text"
-                        data-en="A well selected team"
-                        data-pl="Dobrze dobrany zespół">
-                        A well selected team
+                        data-en="Direct technical accountability"
+                        data-pl="Bezpośrednia odpowiedzialność techniczna">
+                        Direct technical accountability
                     </h3>
                 </div>
 
