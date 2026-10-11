@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 600" role="img" aria-labelledby="title desc">
+  <title id="title">Engineering process illustration</title>
+  <desc id="desc">Abstract software architecture diagram showing connected workflow stages, structured data, and system components.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f7f9ff"/><stop offset="1" stop-color="#edf2ff"/></linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4778e8"/><stop offset="1" stop-color="#284da9"/></linearGradient>
+  </defs>
+  <rect x="60" y="45" width="640" height="500" rx="28" fill="url(#panel)" stroke="#d8e1f5" stroke-width="2"/>
+  <path d="M155 190 H295 M465 190 H600 M380 225 V300 M155 370 H295 M465 370 H600" fill="none" stroke="#8da7dc" stroke-width="4" stroke-linecap="round" stroke-dasharray="7 9"/>
+  <circle cx="225" cy="190" r="7" fill="#4778e8"/><circle cx="535" cy="190" r="7" fill="#4778e8"/><circle cx="225" cy="370" r="7" fill="#4778e8"/><circle cx="535" cy="370" r="7" fill="#4778e8"/>
+  <rect x="92" y="132" width="150" height="116" rx="16" fill="#fff" stroke="#c8d6f2" stroke-width="2"/>
+  <rect x="112" y="153" width="40" height="40" rx="10" fill="#e8efff"/><path d="M122 165h20M122 173h14M122 181h17" stroke="#315ab8" stroke-width="3" stroke-linecap="round"/>
+  <rect x="112" y="207" width="105" height="7" rx="3.5" fill="#cbd6eb"/><rect x="112" y="222" width="78" height="7" rx="3.5" fill="#dce4f3"/>
+  <rect x="305" y="132" width="150" height="116" rx="16" fill="url(#blue)"/>
+  <circle cx="380" cy="170" r="19" fill="none" stroke="#fff" stroke-width="3"/><path d="M369 170l8 8 15-17" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="332" y="204" width="96" height="7" rx="3.5" fill="#dce7ff"/><rect x="344" y="219" width="72" height="6" rx="3" fill="#b9ceff"/>
+  <rect x="518" y="132" width="150" height="116" rx="16" fill="#fff" stroke="#c8d6f2" stroke-width="2"/>
+  <rect x="541" y="154" width="104" height="47" rx="8" fill="#edf2ff"/><path d="M552 187l17-14 15 7 20-18 27 12" fill="none" stroke="#4778e8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="541" y="211" width="104" height="7" rx="3.5" fill="#cbd6eb"/><rect x="541" y="226" width="73" height="6" rx="3" fill="#dce4f3"/>
+  <rect x="92" y="312" width="150" height="116" rx="16" fill="#fff" stroke="#c8d6f2" stroke-width="2"/>
+  <rect x="112" y="334" width="110" height="18" rx="5" fill="#e8efff"/><rect x="112" y="360" width="110" height="7" rx="3.5" fill="#cbd6eb"/><rect x="112" y="375" width="82" height="7" rx="3.5" fill="#dce4f3"/><rect x="112" y="396" width="62" height="17" rx="5" fill="#4778e8"/>
+  <rect x="305" y="312" width="150" height="116" rx="16" fill="#fff" stroke="#c8d6f2" stroke-width="2"/>
+  <circle cx="346" cy="350" r="10" fill="#dbe6ff" stroke="#4778e8" stroke-width="2"/><circle cx="380" cy="350" r="10" fill="#dbe6ff" stroke="#4778e8" stroke-width="2"/><circle cx="414" cy="350" r="10" fill="#dbe6ff" stroke="#4778e8" stroke-width="2"/><path d="M356 350h14m20 0h14" stroke="#4778e8" stroke-width="3"/>
+  <rect x="330" y="380" width="100" height="7" rx="3.5" fill="#cbd6eb"/><rect x="343" y="395" width="74" height="7" rx="3.5" fill="#dce4f3"/>
+  <rect x="518" y="312" width="150" height="116" rx="16" fill="#fff" stroke="#c8d6f2" stroke-width="2"/>
+  <rect x="541" y="333" width="104" height="60" rx="8" fill="#edf2ff"/><path d="M553 379v-16h13v16m7 0v-28h13v28m7 0v-21h13v21m7 0v-36h13v36" fill="#4778e8" opacity=".88"/>
+  <rect x="541" y="405" width="80" height="7" rx="3.5" fill="#cbd6eb"/>
+  <rect x="195" y="468" width="370" height="42" rx="21" fill="#fff" stroke="#d1ddf3" stroke-width="2"/>
+  <circle cx="222" cy="489" r="7" fill="#4778e8"/><rect x="240" y="484" width="118" height="9" rx="4.5" fill="#b8c8e8"/><circle cx="389" cy="489" r="7" fill="#2f9a84"/><rect x="407" y="484" width="126" height="9" rx="4.5" fill="#b8c8e8"/>
+</svg>
