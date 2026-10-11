@@ -52,9 +52,9 @@
 
                 <nav class="main-nav" id="mainNav">
                     <a href="#services" class="nav-link lang-text" data-en="Services" data-pl="Usługi">Services</a>
-                    <a href="#projects" class="nav-link lang-text" data-en="Our Projects" data-pl="Nasze projekty">Our Projects</a>
+                    <a href="#projects" class="nav-link lang-text" data-en="Selected Work" data-pl="Realizacje">Selected Work</a>
                     <a href="#about" class="nav-link lang-text" data-en="Overview" data-pl="Przegląd">Overview</a>
-                    <a href="#reviews" class="nav-link lang-text" data-en="Reviews" data-pl="Opinie">Reviews</a>
+                    <a href="#reviews" class="nav-link lang-text" data-en="Client Feedback" data-pl="Opinie klientów">Client Feedback</a>
                     <a href="#MapofClients" class="nav-link lang-text" data-en="Map of Clients" data-pl="Mapa klientów">Map of Clients</a>
                     <a href="#contact" class="nav-link lang-text" data-en="Contact" data-pl="Kontakt">Contact</a>
                 </nav>
@@ -467,20 +467,11 @@
             <section class="about-section section-space" id="about">
                 <div class="container about-grid">
                     <div class="about-copy">
-                        <h2 class="section-title lang-text" data-en="About" data-pl="O nas">About</h2>
+                        <h2 class="section-title lang-text" data-en="About OUR-CS" data-pl="O OUR-CS">About OUR-CS</h2>
 
-                        <p class="about-lead lang-text"
-                           data-en="Our-CS builds reliable software around real business operations. From web systems and admin panels to internal platforms and custom business tools, we create structured digital solutions that improve workflow, clarity, and day-to-day efficiency."
-                           data-pl="Our-CS tworzy niezawodne oprogramowanie oparte na rzeczywistych operacjach biznesowych. Od systemów webowych i paneli administracyjnych po platformy wewnętrzne i niestandardowe narzędzia biznesowe — tworzymy uporządkowane rozwiązania cyfrowe, które usprawniają workflow, zwiększają przejrzystość i poprawiają codzienną efektywność.">
-Our-CS builds reliable software around real business operations. From web systems and admin panels to internal platforms and custom business tools, we create structured digital solutions that improve workflow, clarity, and day-to-day efficiency.
+                        <p class="about-lead lang-text" data-en="OUR-CS is a Poland-based software company focused on custom business systems, workflow-driven applications, and specialized digital platforms." data-pl="OUR-CS to polska firma programistyczna tworząca dedykowane systemy biznesowe, aplikacje oparte na procesach i wyspecjalizowane platformy cyfrowe.">OUR-CS is a Poland-based software company focused on custom business systems, workflow-driven applications, and specialized digital platforms.</p>
 
-                        </p>
-
-                        <p class="lang-text"
-                           data-en="We combine technical execution with practical thinking, focusing on clean design, strong architecture, and long-term business value."
-                           data-pl="Łączymy solidne wykonanie techniczne z praktycznym podejściem, koncentrując się na czystym designie, mocnej architekturze i długoterminowej wartości biznesowej.">
-We combine technical execution with practical thinking, focusing on clean design, strong architecture, and long-term business value.
-                        </p>
+                        <p class="lang-text" data-en="The company builds on the direct software development experience of its founder, who personally developed the projects featured in this portfolio. That work includes independent professional engagements and projects undertaken through OUR-CS." data-pl="Firma korzysta z bezpośredniego doświadczenia programistycznego swojego założyciela, który osobiście opracował projekty przedstawione w portfolio. Obejmują one zarówno niezależne realizacje zawodowe, jak i projekty prowadzone w ramach OUR-CS.">The company builds on the direct software development experience of its founder, who personally developed the projects featured in this portfolio. That work includes independent professional engagements and projects undertaken through OUR-CS.</p><p class="lang-text" data-en="The objective is practical: understand the operating environment, define a sensible technical approach, and build software that people can use, manage, and improve." data-pl="Cel jest praktyczny: zrozumieć środowisko pracy, określić rozsądne podejście techniczne i tworzyć oprogramowanie, z którego można korzystać, którym można zarządzać i które można rozwijać.">The objective is practical: understand the operating environment, define a sensible technical approach, and build software that people can use, manage, and improve.</p>
 
 
                     </div>
@@ -499,122 +490,7 @@ We combine technical execution with practical thinking, focusing on clean design
             </section>--%>
 
             <!-- MAP -->
-            <section class="map-section section-space" id="MapofClients">
-    <div class="container">
-        <div class="map-box">
-
-            <img src="assets/img/map-clients.png" alt="Clients Map" class="map-image" />
-
-            <!-- MAP TITLE INSIDE IMAGE -->
-            <div class="map-caption" >
-                <h2 class="section-title lang-text"
-                    data-en="Map of Clients"
-                    data-pl="Mapa klientów">
-                    Map of Clients
-                </h2>
-            </div>
-
-            <!-- MARKERS -->
-            <div class="map-markers">
-
-                <!-- Ireland -->
-                <div class="map-marker" style="left: 44%; top: 27%;">
-                    <span class="map-tooltip">
-                        <strong>Safety Horizon ECI</strong>
-                        <small>Ireland</small>
-                    </span>
-                </div>
-
-                 <!-- Canada -->
- <div class="map-marker" style="left: 15%; top: 20%;">
-     <span class="map-tooltip">
-         <strong>Beacon Light School</strong>
-         <small>Canada</small>
-     </span>
- </div>
-
-                <!-- Poland -->
-                <div class="map-marker" style="left:  55%; top: 22%;">
-                    <span class="map-tooltip">
-                        <strong>ABCNews-247</strong>
-                        <small>Poland</small>
-                    </span>
-                </div>
-
-                <!-- France -->
-                <div class="map-marker" style="left: 47%; top: 27%;">
-                    <span class="map-tooltip">
-                        <strong>Qahwa World</strong>
-                        <small>France</small>
-                    </span>
-                </div>
-
-                <!-- Belgium -->
-                <div class="map-marker" style="left: 48%; top: 24%;">
-                    <span class="map-tooltip">
-                        <strong>Safety Horizon ECI</strong>
-                        <small>Belgium</small>
-                    </span>
-                </div>
-
-                <!-- Spain -->
-                <div class="map-marker" style="left: 45%; top: 30%;">
-                    <span class="map-tooltip">
-                        <strong>Safety Horizon ECI</strong>
-                        <small>Spain</small>
-                    </span>
-                </div>
-
-                <!-- Latvia / Lithuania -->
-                <div class="map-marker" style="left:  57%; top: 18%;">
-                    <span class="map-tooltip">
-                        <strong>Safety Horizon ECI</strong>
-                        <small>Latvia / Lithuania</small>
-                    </span>
-                </div>
-
-                <!-- Saudi Arabia -->
-                <div class="map-marker" style="left: 61%; top: 40%;">
-                    <span class="map-tooltip">
-                        <strong>Safety Horizon ECI</strong>
-                        <small>Saudi Arabia</small>
-                    </span>
-                </div>
-
-                <!-- UAE -->
-                <div class="map-marker" style="left: 63%; top: 40%;">
-                    <span class="map-tooltip">
-                        <strong>Dubai Sports Council</strong>
-                                 <strong>Dubai Media Incorporated</strong>
-
-                        <small>UAE</small>
-                    </span>
-                </div>
-
-
-  
-                
-
-                <!-- Egypt -->
-                <div class="map-marker" style="left: 56%; top: 40%;">
-                    <span class="map-tooltip">
-                        <strong>Safety Horizon ECI</strong>
-                        <small>Egypt</small>
-                    </span>
-                </div>
-
-                <!-- Netherlands -->
-                <div class="map-marker" style="left: 48%; top: 22%;">
-                    <span class="map-tooltip">
-                        <strong>Safety Horizon ECI</strong>
-                        <small>Netherlands</small>
-                    </span>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</section>
+            <section class="map-section section-space" id="MapofClients"><div class="container"><div class="map-box"><img src="/assets/img/map-clients.png" alt="Decorative world map illustration; no client offices or locations are represented" class="map-image" /><div class="map-caption"><h2 class="section-title lang-text" data-en="Project Experience Across Different Markets" data-pl="Doświadczenie projektowe na różnych rynkach">Project Experience Across Different Markets</h2><p class="lang-text" data-en="The portfolio covers different operating contexts, including education, certification, media, evaluation and venue operations. The map is illustrative and does not identify OUR-CS offices or verified client locations." data-pl="Portfolio obejmuje różne obszary działalności: edukację, certyfikację, media, ocenę i obsługę lokali. Mapa ma charakter ilustracyjny i nie wskazuje biur OUR-CS ani zweryfikowanych lokalizacji klientów.">The portfolio covers different operating contexts, including education, certification, media, evaluation and venue operations. The map is illustrative and does not identify OUR-CS offices or verified client locations.</p></div></div></div></section>
 
             <!-- CONTACT INTRO -->
             <section class="contact-intro section-space" id="contact">
