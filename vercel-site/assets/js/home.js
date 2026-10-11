@@ -6,53 +6,9 @@
     const langItems = document.querySelectorAll(".lang-text");
     const STORAGE_KEY = "ourcs_lang";
 
-    /* =========================
-       Hero Counters
-    ========================= */
-    const counters = document.querySelectorAll(".counter");
-    let countersStarted = false;
+    /* The hero process strip uses static words, not animated counters. */
 
-    function animateCounter(counter) {
-        const target = parseInt(counter.getAttribute("data-target"), 10) || 0;
-        const duration = 1800;
-        const stepTime = 20;
-        const totalSteps = Math.ceil(duration / stepTime);
-        const increment = target / totalSteps;
-        let current = 0;
-
-        const timer = setInterval(function () {
-            current += increment;
-
-            if (current >= target) {
-                counter.textContent = target + "+";
-                clearInterval(timer);
-            } else {
-                counter.textContent = Math.floor(current) + "+";
-            }
-        }, stepTime);
-    }
-
-    function startCountersIfVisible() {
-        const heroStats = document.querySelector(".hero-stats");
-        if (!heroStats || countersStarted) return;
-
-        const rect = heroStats.getBoundingClientRect();
-        const windowHeight = window.innerHeight || document.documentElement.clientHeight;
-
-        if (rect.top < windowHeight - 60) {
-            counters.forEach(function (counter) {
-                animateCounter(counter);
-            });
-            countersStarted = true;
-        }
-    }
-
-    window.addEventListener("scroll", startCountersIfVisible);
-    startCountersIfVisible();
-
-    /* =========================
-       Mobile Menu Toggle
-    ========================= */
+    
     if (menuToggle && mainNav) {
         menuToggle.addEventListener("click", function () {
             mainNav.classList.toggle("active");
