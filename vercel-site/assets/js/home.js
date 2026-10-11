@@ -42,8 +42,24 @@
     function setLanguage(lang) {
         langItems.forEach(function (el) {
             const newText = el.getAttribute("data-" + lang);
-            if (newText !== null) {
+            if (newText === null) return;
+
+            // Update direct text nodes instead of replacing inner content.
+            // This keeps icons, links and other nested markup intact.
+            const directTextNodes = Array.from(el.childNodes).filter(function (node) {
+                return node.nodeType === Node.TEXT_NODE && node.nodeValue.trim() !== "";
+            });
+
+            if (directTextNodes.length > 0) {
+                directTextNodes[0].nodeValue = newText;
+                directTextNodes.slice(1).forEach(function (node) {
+                    node.nodeValue = "";
+                });
+            } else if (!el.children.length) {
                 el.textContent = newText;
+            } else if (!el.querySelector(".lang-text")) {
+                const translatedText = document.createTextNode(newText);
+                el.appendChild(translatedText);
             }
         });
 
