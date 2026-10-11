@@ -8,7 +8,7 @@
 
     /* The hero process strip uses static words, not animated counters. */
 
-    
+
     if (menuToggle && mainNav) {
         menuToggle.addEventListener("click", function () {
             mainNav.classList.toggle("active");
@@ -69,7 +69,7 @@
         document.documentElement.setAttribute("lang", lang === "pl" ? "pl" : "en");
         localStorage.setItem(STORAGE_KEY, lang);
 
-   
+
     }
 
     langButtons.forEach(function (btn) {
