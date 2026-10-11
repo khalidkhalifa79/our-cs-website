@@ -16,9 +16,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Custom Software & Business Systems | Our-CS</title>
+    <title>Custom Business Software &amp; Workflow Systems | OUR-CS</title>
 
-    <meta name="description" content="Our-CS builds custom software, business systems, admin panels, internal platforms and workflow automation solutions for companies in Poland and international markets." />
+    <meta name="description" content="OUR-CS builds custom business applications, internal platforms, and workflow systems around real operational requirements." />
     <meta name="robots" content="index, follow" />
 
     <link rel="canonical" href="https://our-cs.com/" />
@@ -90,42 +90,39 @@
                 <div class="container hero-grid">
                     <div class="hero-content">
     <h1 class="hero-title lang-text"
-        data-en="Custom Software Built for Real Business Operations"
-        data-pl="Dedykowane oprogramowanie tworzone dla rzeczywistych operacji biznesowych">
-        Custom Software Built for Real Business Operations
+        data-en="Software Built Around How Your Business Works"
+        data-pl="Oprogramowanie dopasowane do sposobu działania Twojej firmy">
+        Software Built Around How Your Business Works
     </h1>
 
     <h2 class="hero-subtitle lang-text"
-        data-en="We design and develop business systems, admin panels, internal platforms, and workflow-driven web solutions."
-        data-pl="Projektujemy i tworzymy systemy biznesowe, panele administracyjne, platformy wewnętrzne oraz rozwiązania webowe oparte na workflow.">
-        We design and develop business systems, admin panels, internal platforms, and workflow-driven web solutions.
+        data-en="Custom business applications, internal platforms, and workflow automation for organizations that need more than off-the-shelf tools."
+        data-pl="Dedykowane aplikacje biznesowe, platformy wewnętrzne i automatyzacja procesów dla organizacji, którym nie wystarczają gotowe narzędzia.">
+        Custom business applications, internal platforms, and workflow automation for organizations that need more than off-the-shelf tools.
     </h2>
 
     <p class="hero-text lang-text"
-       data-en="From certification and publishing systems to corporate websites and approval workflows, we build practical software that improves clarity, control, and day-to-day efficiency."
-       data-pl="Od systemów certyfikacyjnych i platform publikacyjnych po strony korporacyjne i procesy akceptacji — tworzymy praktyczne oprogramowanie, które zwiększa przejrzystość, kontrolę i codzienną efektywność.">
-        From certification and publishing systems to corporate websites and approval workflows, we build practical software that improves clarity, control, and day-to-day efficiency.
-    </p>
-</div>
+       data-en="We turn operational requirements into practical digital systems—connecting the records, approvals, content, and processes that keep a business running. Our focus is clear architecture, purposeful functionality, and software you can work with."
+       data-pl="Przekładamy wymagania operacyjne na praktyczne systemy cyfrowe, które łączą dane, akceptacje, treści i procesy niezbędne do działania firmy. Stawiamy na przejrzystą architekturę, przemyślane funkcje i oprogramowanie, z którego można sprawnie korzystać.">
+        We turn operational requirements into practical digital systems—connecting the records, approvals, content, and processes that keep a business running. Our focus is clear architecture, purposeful functionality, and software you can work with.
+    </p></div>
 
                     <div class="hero-visual">
-                        <img src="assets/img/hero-illustration.png" alt="Software Team Illustration" />
+                        <img src="assets/img/hero-illustration.png" alt="Illustration representing software engineering and digital workflows" />
                     </div>
 
                     <div class="hero-stats">
                         <div class="stat-card">
-                            <strong class="counter" data-target="123">0</strong>
-                            <span class="lang-text" data-en="Completed projects" data-pl="Zrealizowane projekty">Completed projects</span>
+                            <strong>Understand</strong>
+                            <span class="lang-text" data-en="Map the real workflow" data-pl="Poznaj rzeczywisty proces">Map the real workflow</span>
                         </div>
-
                         <div class="stat-card">
-                            <strong class="counter" data-target="18">0</strong>
-                            <span class="lang-text" data-en="Years of experience" data-pl="Lat doświadczenia">Years of experience</span>
+                            <strong>Engineer</strong>
+                            <span class="lang-text" data-en="Build the right system" data-pl="Zaprojektuj właściwy system">Build the right system</span>
                         </div>
-
                         <div class="stat-card">
-                            <strong class="counter" data-target="10">0</strong>
-                            <span class="lang-text" data-en="Inhouse developers" data-pl="Programistów in-house">Inhouse developers</span>
+                            <strong>Evolve</strong>
+                            <span class="lang-text" data-en="Improve with purpose" data-pl="Rozwijaj świadomie">Improve with purpose</span>
                         </div>
                     </div>
                 </div>
@@ -220,47 +217,36 @@
                 </div>
             </section>
 
-            <!-- FOUNDER MESSAGE -->
+            <!-- ENGINEERING APPROACH -->
 <section class="founder-message-section section-space">
     <div class="container">
         <h2 class="center-title text-left lang-text"
-            data-en="A word from the company owner"
-            data-pl="Słowo od właściciela firmy">
-            A word from the company owner
+            data-en="Our Engineering Approach"
+            data-pl="Nasze podejście inżynierskie">
+            Our Engineering Approach
         </h2>
-
         <article class="founder-message-card">
             <div class="founder-message-grid">
                 <div class="founder-message-copy">
                     <p class="lang-text"
-                       data-en="To our new and existing clients, thank you for your trust in Our-CS. From the beginning, our goal has been to build dependable digital solutions that serve real business needs, support daily operations, and create long-term value. We believe every project should be approached with clarity, commitment, and a strong sense of responsibility toward the people and businesses we work with."
-                       data-pl="Do naszych nowych i obecnych klientów — dziękujemy za zaufanie do Our-CS. Od samego początku naszym celem było tworzenie niezawodnych rozwiązań cyfrowych, które odpowiadają na rzeczywiste potrzeby biznesowe, wspierają codzienne działania i budują długoterminową wartość. Wierzymy, że każdy projekt powinien być realizowany z jasną wizją, zaangażowaniem oraz silnym poczuciem odpowiedzialności wobec ludzi i firm, z którymi współpracujemy.">
-                        To our new and existing clients, thank you for your trust in Our-CS. From the beginning, our goal has been to build dependable digital solutions that serve real business needs, support daily operations, and create long-term value. We believe every project should be approached with clarity, commitment, and a strong sense of responsibility toward the people and businesses we work with.
+                       data-en="Every project starts with understanding the work behind the request: who uses the system, what information moves through it, where decisions happen, and which steps need to become clearer or more reliable."
+                       data-pl="Każdy projekt zaczynamy od zrozumienia pracy stojącej za zgłoszeniem: kto korzysta z systemu, jakie informacje przez niego przepływają, gdzie podejmowane są decyzje i które etapy wymagają większej przejrzystości lub niezawodności.">
+                        Every project starts with understanding the work behind the request: who uses the system, what information moves through it, where decisions happen, and which steps need to become clearer or more reliable.
                     </p>
-
                     <p class="lang-text"
-                       data-en="Whether you are starting a new project or continuing a long-term collaboration with us, our focus remains the same: quality, reliability, and practical results. We are proud of every partnership we build, and we look forward to helping more businesses grow with confidence through thoughtful, well-structured technology."
-                       data-pl="Niezależnie od tego, czy rozpoczynają Państwo nowy projekt, czy kontynuują z nami długoterminową współpracę, nasze podejście pozostaje niezmienne: jakość, niezawodność i praktyczne rezultaty. Jesteśmy dumni z każdej relacji partnerskiej, którą budujemy, i z zaangażowaniem wspieramy firmy w rozwoju dzięki przemyślanym oraz dobrze zaprojektowanym rozwiązaniom technologicznym.">
-                        Whether you are starting a new project or continuing a long-term collaboration with us, our focus remains the same: quality, reliability, and practical results. We are proud of every partnership we build, and we look forward to helping more businesses grow with confidence through thoughtful, well-structured technology.
+                       data-en="OUR-CS is founder-led, with direct technical responsibility for solution design and implementation. We keep the work grounded in the agreed scope, explain trade-offs clearly, and aim for maintainable systems that fit the way each organization operates."
+                       data-pl="OUR-CS jest firmą prowadzoną przez założyciela, który bezpośrednio odpowiada za projekt techniczny i realizację. Pracujemy w uzgodnionym zakresie, jasno wyjaśniamy kompromisy i dążymy do tworzenia łatwych w utrzymaniu systemów dopasowanych do sposobu działania organizacji.">
+                        OUR-CS is founder-led, with direct technical responsibility for solution design and implementation. We keep the work grounded in the agreed scope, explain trade-offs clearly, and aim for maintainable systems that fit the way each organization operates.
                     </p>
-
-                    <h4>Khalid Khalifa</h4>
-                    <span class="lang-text"
-                          data-en="Founder & CEO, Our-CS"
-                          data-pl="Założyciel i CEO, Our-CS">
-                        Founder & CEO, Our-CS
-                    </span>
-
                     <a href="#projects" class="link-arrow lang-text"
-                       data-en="See Our Work"
-                       data-pl="Zobacz nasze realizacje">
-                        See Our Work
+                       data-en="Explore selected work"
+                       data-pl="Zobacz wybrane realizacje">
+                        Explore selected work
                     </a>
                 </div>
-
                 <div class="founder-message-media">
                     <div class="founder-message-visual">
-                        <img src="assets/img/khalidkhalifa.png" alt="khalidkhalifa" class="founder-person" />
+                        <i class="fa-solid fa-diagram-project" aria-hidden="true"></i>
                     </div>
                 </div>
             </div>
@@ -268,7 +254,7 @@
     </div>
 </section>
 
-          <!-- REVIEWS -->
+<!-- REVIEWS -->
 <section class="reviews-section section-space" id="reviews">
     <div class="container">
         <h2 class="section-title lang-text" data-en="Our reviews" data-pl="Nasze opinie">
