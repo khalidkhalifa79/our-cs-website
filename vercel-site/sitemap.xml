@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://our-cs.com/</loc></url>
-  <url><loc>https://our-cs.com/work.html</loc></url>
-  <url><loc>https://our-cs.com/services.html</loc></url>
-  <url><loc>https://our-cs.com/about.html</loc></url>
-  <url><loc>https://our-cs.com/contact.html</loc></url>
+  <url><loc>https://our-cs.com/work</loc></url>
+  <url><loc>https://our-cs.com/services</loc></url>
+  <url><loc>https://our-cs.com/about</loc></url>
+  <url><loc>https://our-cs.com/contact</loc></url>
   <url><loc>https://our-cs.com/projects/abc-news-247/</loc></url>
   <url><loc>https://our-cs.com/projects/al-bayan-editorial-system/</loc></url>
   <url><loc>https://our-cs.com/projects/edulytiks/</loc></url>
