@@ -549,9 +549,9 @@
     </p>
 
     <div class="project-footer-contact">
-        <a href="tel:+48721143224" class="project-footer-contact-line">
+        <a href="tel:+48514132428" class="project-footer-contact-line">
             <i class="fa-solid fa-phone"></i>
-            <span>+48 721 143 224</span>
+            <span>+48 514 132 428</span>
         </a>
 
         <a href="tel:+971509229389" class="project-footer-contact-line">
@@ -559,7 +559,7 @@
             <span>+971 50 922 9389</span>
         </a>
 
-        <a href="https://wa.me/48721143224" target="_blank" rel="noopener" class="project-footer-contact-line">
+        <a href="https://wa.me/48514132428" target="_blank" rel="noopener" class="project-footer-contact-line">
             <i class="fa-brands fa-whatsapp"></i>
             <span class="lang-text"
                   data-en="WhatsApp Poland"
