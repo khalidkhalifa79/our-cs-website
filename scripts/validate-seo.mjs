@@ -11,6 +11,10 @@ const root = path.resolve('vercel-site');
 const domain = 'https://our-cs.com';
 const problems = [];
 const fail = (message) => problems.push(message);
+const sharedCSS = readFileSync(path.join(root, 'assets/css/style.css'), 'utf8');
+if (/^\s*@import\s+url\(\s*['"]?https:\/\/fonts\.googleapis\.com/im.test(sharedCSS))
+  fail('Avoid render-blocking @import for Google Fonts in shared CSS');
+
 const sitemap = readFileSync(path.join(root, 'sitemap.xml'), 'utf8');
 const urls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
 const normalized = (url) => new URL(url, domain).pathname.replace(/\/$/, '') || '/';
@@ -37,6 +41,16 @@ for (const url of urls) {
   if (!existsSync(filename)) { fail('Missing HTML for sitemap URL ' + url); continue; }
   const html = readFileSync(filename, 'utf8');
   instances.set(url, html);
+  const pageStylesheets = tags(html, 'link').filter((tag) => attribute(tag, 'rel') === 'stylesheet');
+  const usesSharedCSS = pageStylesheets.some((tag) => /(?:^|\/)assets\/css\/style\.css(?:\?|$)/.test(attribute(tag, 'href') || ''));
+  if (usesSharedCSS) {
+    const hasFontLink = pageStylesheets.some((tag) => (attribute(tag, 'href') || '').startsWith('https://fonts.googleapis.com/css2?'));
+    if (!hasFontLink) fail(url + ': Google Fonts CSS missing from document head');
+    const connections = tags(html, 'link').filter((tag) => attribute(tag, 'rel') === 'preconnect').map((tag) => attribute(tag, 'href'));
+    for (const origin of ['https://fonts.googleapis.com', 'https://fonts.gstatic.com'])
+      if (!connections.includes(origin)) fail(url + ': missing font preconnect: ' + origin);
+  }
+
   const title = html.match(/<title>([\s\S]*?)<\/title>/gi) ?? [];
   const h1 = html.match(/<h1\b/gi) ?? [];
   if (title.length !== 1 || !title[0].replace(/<[^>]*>/g, '').trim()) fail(url + ': expected one non-empty title');
