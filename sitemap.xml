@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://our-cs.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://our-cs.com/consultation/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://our-cs.com/estimate-project/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://our-cs.com/projects/edulytiks/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://our-cs.com/projects/gaming-center-management-system/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://our-cs.com/projects/safety-horizon-system/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://our-cs.com/projects/abc-news-247/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://our-cs.com/projects/mbr-award-evaluation-system/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://our-cs.com/projects/al-bayan-editorial-system/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://our-cs.com/projects/qahwa-world/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://our-cs.com/projects/safety-horizon-eci/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://our-cs.com/</loc></url>
+  <url><loc>https://our-cs.com/pl/</loc></url>
+  <url><loc>https://our-cs.com/work</loc></url>
+  <url><loc>https://our-cs.com/services</loc></url>
+  <url><loc>https://our-cs.com/about</loc></url>
+  <url><loc>https://our-cs.com/contact</loc></url>
+  <url><loc>https://our-cs.com/projects/abc-news-247/</loc></url>
+  <url><loc>https://our-cs.com/projects/al-bayan-editorial-system/</loc></url>
+  <url><loc>https://our-cs.com/projects/edulytiks/</loc></url>
+  <url><loc>https://our-cs.com/projects/gaming-center-management-system/</loc></url>
+  <url><loc>https://our-cs.com/projects/mbr-award-evaluation-system/</loc></url>
+  <url><loc>https://our-cs.com/projects/qahwa-world/</loc></url>
+  <url><loc>https://our-cs.com/projects/safety-horizon-eci/</loc></url>
+  <url><loc>https://our-cs.com/projects/safety-horizon-system/</loc></url>
+  <url><loc>https://our-cs.com/consultation/</loc></url>
+  <url><loc>https://our-cs.com/estimate-project/</loc></url>
+  <url><loc>https://our-cs.com/custom-software-development-warsaw</loc></url>
+  <url><loc>https://our-cs.com/dedykowane-oprogramowanie-warszawa</loc></url>
+  <url><loc>https://our-cs.com/business-process-automation-poland</loc></url>
+  <url><loc>https://our-cs.com/automatyzacja-procesow-biznesowych</loc></url>
+  <url><loc>https://our-cs.com/publishing-platforms-editorial-cms</loc></url>
+  <url><loc>https://our-cs.com/systemy-cms-platformy-redakcyjne</loc></url>
 </urlset>
