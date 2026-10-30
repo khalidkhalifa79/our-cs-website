@@ -1,0 +1,25 @@
+name: SEO static validation
+on:
+  push:
+    paths:
+      - 'vercel-site/**'
+      - 'scripts/validate-seo.mjs'
+      - '.github/workflows/seo-validation.yml'
+  pull_request:
+    paths:
+      - 'vercel-site/**'
+      - 'scripts/validate-seo.mjs'
+      - '.github/workflows/seo-validation.yml'
+permissions:
+  contents: read
+jobs:
+  validate-seo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Check sitemap, metadata, canonical URLs and links
+        run: node scripts/validate-seo.mjs
