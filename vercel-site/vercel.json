@@ -1,4 +1,127 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "cleanUrls": true
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/project-details.aspx",
+      "has": [
+        {
+          "type": "query",
+          "key": "project",
+          "value": "abc-news-247"
+        }
+      ],
+      "destination": "/projects/abc-news-247/",
+      "permanent": true
+    },
+    {
+      "source": "/project-details.aspx",
+      "has": [
+        {
+          "type": "query",
+          "key": "project",
+          "value": "al-bayan-editorial-system"
+        }
+      ],
+      "destination": "/projects/al-bayan-editorial-system/",
+      "permanent": true
+    },
+    {
+      "source": "/project-details.aspx",
+      "has": [
+        {
+          "type": "query",
+          "key": "project",
+          "value": "edulytiks"
+        }
+      ],
+      "destination": "/projects/edulytiks/",
+      "permanent": true
+    },
+    {
+      "source": "/project-details.aspx",
+      "has": [
+        {
+          "type": "query",
+          "key": "project",
+          "value": "gaming-center-management-system"
+        }
+      ],
+      "destination": "/projects/gaming-center-management-system/",
+      "permanent": true
+    },
+    {
+      "source": "/project-details.aspx",
+      "has": [
+        {
+          "type": "query",
+          "key": "project",
+          "value": "mbr-award-evaluation-system"
+        }
+      ],
+      "destination": "/projects/mbr-award-evaluation-system/",
+      "permanent": true
+    },
+    {
+      "source": "/project-details.aspx",
+      "has": [
+        {
+          "type": "query",
+          "key": "project",
+          "value": "qahwa-world"
+        }
+      ],
+      "destination": "/projects/qahwa-world/",
+      "permanent": true
+    },
+    {
+      "source": "/project-details.aspx",
+      "has": [
+        {
+          "type": "query",
+          "key": "project",
+          "value": "safety-horizon-eci"
+        }
+      ],
+      "destination": "/projects/safety-horizon-eci/",
+      "permanent": true
+    },
+    {
+      "source": "/project-details.aspx",
+      "has": [
+        {
+          "type": "query",
+          "key": "project",
+          "value": "safety-horizon-system"
+        }
+      ],
+      "destination": "/projects/safety-horizon-system/",
+      "permanent": true
+    },
+    {
+      "source": "/default.aspx",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/services.aspx",
+      "destination": "/services",
+      "permanent": true
+    },
+    {
+      "source": "/projects.aspx",
+      "destination": "/work",
+      "permanent": true
+    },
+    {
+      "source": "/about.aspx",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/contact.aspx",
+      "destination": "/contact",
+      "permanent": true
+    }
+  ]
 }
